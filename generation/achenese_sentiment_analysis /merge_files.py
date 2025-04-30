@@ -22,9 +22,9 @@ final_parts = []
 for s in ['positive','neutral','negative']:
     subset = df[df['sentiment']==s]
     if len(subset) >= target_size:
-        sampled = subset.sample(target_size, random_state=42, replace=False)
+        sampled = subset.sample(target_size, random_state=100, replace=False)
     else:
-        sampled = subset.sample(target_size, random_state=42, replace=True)
+        sampled = subset.sample(target_size, random_state=100, replace=True)
     final_parts.append(sampled)
 
 # save

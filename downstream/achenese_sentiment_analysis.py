@@ -91,7 +91,7 @@ def load_and_process_sentiment_data():
     # load real data
     real_data = load_dataset("indonlp/NusaX-senti", "ace", split="train")
     real_df = real_data.to_pandas()[["text", "label"]]
-    real_df = real_df.sample(n=500, random_state=42)
+    real_df = real_df.sample(n=500, random_state=100)
 
     return real_df, synthetic_df
 
@@ -181,7 +181,7 @@ def run_data_analysis_sentiment():
     real_df, synthetic_df = load_and_process_sentiment_data()
 
     combined_df = pd.concat([real_df, synthetic_df], ignore_index=True)
-    combined_df = combined_df.sample(frac=1, random_state=42).reset_index(drop=True)
+    combined_df = combined_df.sample(frac=1, random_state=100).reset_index(drop=True)
     print("combined dataset shape:", combined_df.shape)
 
     display_dataset_info_sentiment(combined_df)
@@ -202,7 +202,7 @@ def prepare_experiment_splits_sentiment():
     """
     real_df, synthetic_df = load_and_process_sentiment_data()
 
-    real_core = real_df.sample(n=500, random_state=42)
+    real_core = real_df.sample(n=500, random_state=100)
     splits = {
         "real_only":      (500,    0),
         "low_aug":        (500,  250),
@@ -213,9 +213,9 @@ def prepare_experiment_splits_sentiment():
     }
 
     for name, (n_real, n_syn) in splits.items():
-        train_real = real_core.sample(n=n_real, random_state=42) if n_real > 0 else pd.DataFrame(columns=real_core.columns)
-        train_synth = synthetic_df.sample(n=n_syn, random_state=42)
-        train_df = pd.concat([train_real, train_synth], ignore_index=True).sample(frac=1, random_state=42).reset_index(drop=True)
+        train_real = real_core.sample(n=n_real, random_state=100) if n_real > 0 else pd.DataFrame(columns=real_core.columns)
+        train_synth = synthetic_df.sample(n=n_syn, random_state=100)
+        train_df = pd.concat([train_real, train_synth], ignore_index=True).sample(frac=1, random_state=100).reset_index(drop=True)
         train_df.to_csv(os.path.join(TRAINING_OUTPUT_DIR, f"train_{name}.csv"), index=False)
         print(f"saved split '{name}' with {len(train_real)} real + {len(train_synth)} synthetic examples.")
 

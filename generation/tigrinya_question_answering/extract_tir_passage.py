@@ -20,7 +20,7 @@ def translate(text: str, src: str = 'en', dest: str = 'ti') -> str:
 def main():
     OUT_FILE     = "passages_tir.jsonl"
     MAX_PASSAGES = 2000
-    SEED         = 42
+    SEED         = 100
 
     os.makedirs(os.path.dirname(OUT_FILE) or '.', exist_ok=True)
     ds = load_dataset("squad", split="train")
