@@ -1,0 +1,1620 @@
+
+=== Top 12 runs by weighted_f1 ===
+    variant    experiment  weighted_f1
+0        10       low_aug     0.811183
+1        12      full_aug     0.804960
+2         1  moderate_aug     0.796559
+3         4      full_aug     0.796398
+4         9  moderate_aug     0.785956
+5         9      full_aug     0.785923
+6         1       low_aug     0.784796
+7         8       low_aug     0.784353
+8         4  moderate_aug     0.783380
+9         6      full_aug     0.783292
+10        3       low_aug     0.782309
+11       12  moderate_aug     0.780695
+Saved top_12_weighted_f1.csv
+
+=== Top 12 runs by macro_f1 ===
+    variant    experiment  macro_f1
+0        10       low_aug  0.803480
+1        12      full_aug  0.797714
+2         1  moderate_aug  0.788520
+3         4      full_aug  0.787522
+4         9  moderate_aug  0.779200
+5         7      full_aug  0.777638
+6         9      full_aug  0.777024
+7         4  moderate_aug  0.776679
+8         6      full_aug  0.775606
+9         8       low_aug  0.775527
+10       12  moderate_aug  0.775178
+11        6       low_aug  0.774241
+Saved top_12_macro_f1.csv
+
+=== Top 12 runs by accuracy ===
+    variant    experiment  accuracy
+0        10       low_aug    0.8100
+1        12      full_aug    0.8050
+2         1  moderate_aug    0.7975
+3         4      full_aug    0.7950
+4         6      full_aug    0.7850
+5         9      full_aug    0.7850
+6         9  moderate_aug    0.7850
+7         3       low_aug    0.7850
+8         1       low_aug    0.7825
+9         8       low_aug    0.7825
+10        4  moderate_aug    0.7825
+11        6       low_aug    0.7800
+Saved top_12_accuracy.csv
+
+=== Top 12 runs by roc_auc ===
+    variant    experiment   roc_auc
+0        12      full_aug  0.923309
+1        10       low_aug  0.917983
+2         4      full_aug  0.913806
+3         1       low_aug  0.912161
+4         3       low_aug  0.912008
+5         4       low_aug  0.910826
+6        11  moderate_aug  0.908839
+7        12  moderate_aug  0.908421
+8         6       low_aug  0.908282
+9         7       low_aug  0.907231
+10       12       low_aug  0.907031
+11        2       low_aug  0.906255
+Saved top_12_roc_auc.csv
+
+=== Top 12 runs by cohen_kappa ===
+    variant    experiment  cohen_kappa
+0        10       low_aug     0.710184
+1        12      full_aug     0.700983
+2         1  moderate_aug     0.687765
+3         4      full_aug     0.686097
+4         9      full_aug     0.670804
+5         9  moderate_aug     0.670375
+6         6      full_aug     0.668574
+7         1       low_aug     0.668360
+8         4  moderate_aug     0.668268
+9         8       low_aug     0.667450
+10        7      full_aug     0.666686
+11        3       low_aug     0.666654
+Saved top_12_cohen_kappa.csv
+Saved plot/top_12_weighted_f1_combined.png
+Saved plot/top_12_macro_f1_combined.png
+Saved plot/top_12_accuracy_combined.png
+Saved plot/top_12_roc_auc_combined.png
+Saved plot/top_12_cohen_kappa_combined.png
+
+=== Experiment 'real_only' — variants ranked by weighted_f1 ===
+ variant  weighted_f1
+       1     0.767288
+       2     0.767288
+       3     0.767288
+       4     0.767288
+       5     0.767288
+       6     0.767288
+       7     0.767288
+       8     0.767288
+       9     0.767288
+      10     0.767288
+      11     0.767288
+      12     0.767288
+Saved plot to plot/real_only_weighted_f1.png
+
+=== Experiment 'real_only' — variants ranked by macro_f1 ===
+ variant  macro_f1
+       1   0.75707
+       2   0.75707
+       3   0.75707
+       4   0.75707
+       5   0.75707
+       6   0.75707
+       7   0.75707
+       8   0.75707
+       9   0.75707
+      10   0.75707
+      11   0.75707
+      12   0.75707
+Saved plot to plot/real_only_macro_f1.png
+
+=== Experiment 'real_only' — variants ranked by accuracy ===
+ variant  accuracy
+       1     0.765
+       2     0.765
+       3     0.765
+       4     0.765
+       5     0.765
+       6     0.765
+       7     0.765
+       8     0.765
+       9     0.765
+      10     0.765
+      11     0.765
+      12     0.765
+Saved plot to plot/real_only_accuracy.png
+
+=== Experiment 'real_only' — variants ranked by roc_auc ===
+ variant  roc_auc
+       1 0.891985
+       2 0.891985
+       3 0.891985
+       4 0.891985
+       5 0.891985
+       6 0.891985
+       7 0.891985
+       8 0.891985
+       9 0.891985
+      10 0.891985
+      11 0.891985
+      12 0.891985
+Saved plot to plot/real_only_roc_auc.png
+
+=== Experiment 'real_only' — variants ranked by cohen_kappa ===
+ variant  cohen_kappa
+       1     0.642266
+       2     0.642266
+       3     0.642266
+       4     0.642266
+       5     0.642266
+       6     0.642266
+       7     0.642266
+       8     0.642266
+       9     0.642266
+      10     0.642266
+      11     0.642266
+      12     0.642266
+Saved plot to plot/real_only_cohen_kappa.png
+
+=== Experiment 'low_aug' — variants ranked by weighted_f1 ===
+ variant  weighted_f1
+      10     0.811183
+       1     0.784796
+       8     0.784353
+       3     0.782309
+       6     0.780530
+       5     0.773578
+      12     0.772517
+       4     0.771700
+       7     0.763656
+       9     0.762759
+      11     0.760382
+       2     0.753437
+Saved plot to plot/low_aug_weighted_f1.png
+
+=== Experiment 'low_aug' — variants ranked by macro_f1 ===
+ variant  macro_f1
+      10  0.803480
+       8  0.775527
+       6  0.774241
+       1  0.773713
+       3  0.769715
+      12  0.767535
+       5  0.762845
+       4  0.760778
+       7  0.753606
+       9  0.753285
+      11  0.749473
+       2  0.744277
+Saved plot to plot/low_aug_macro_f1.png
+
+=== Experiment 'low_aug' — variants ranked by accuracy ===
+ variant  accuracy
+      10    0.8100
+       3    0.7850
+       1    0.7825
+       8    0.7825
+       6    0.7800
+       4    0.7725
+       5    0.7725
+      12    0.7700
+       7    0.7625
+       9    0.7625
+      11    0.7600
+       2    0.7525
+Saved plot to plot/low_aug_accuracy.png
+
+=== Experiment 'low_aug' — variants ranked by roc_auc ===
+ variant  roc_auc
+      10 0.917983
+       1 0.912161
+       3 0.912008
+       4 0.910826
+       6 0.908282
+       7 0.907231
+      12 0.907031
+       2 0.906255
+       8 0.905083
+      11 0.904780
+       5 0.903173
+       9 0.896577
+Saved plot to plot/low_aug_roc_auc.png
+
+=== Experiment 'low_aug' — variants ranked by cohen_kappa ===
+ variant  cohen_kappa
+      10     0.710184
+       1     0.668360
+       8     0.667450
+       3     0.666654
+       6     0.663914
+       5     0.650269
+       4     0.649390
+      12     0.648825
+       7     0.635666
+       9     0.635565
+      11     0.630019
+       2     0.619315
+Saved plot to plot/low_aug_cohen_kappa.png
+
+=== Experiment 'moderate_aug' — variants ranked by weighted_f1 ===
+ variant  weighted_f1
+       1     0.796559
+       9     0.785956
+       4     0.783380
+      12     0.780695
+       6     0.777205
+       3     0.773900
+      11     0.770625
+       5     0.770305
+      10     0.757275
+       8     0.733574
+       2     0.727816
+       7     0.723161
+Saved plot to plot/moderate_aug_weighted_f1.png
+
+=== Experiment 'moderate_aug' — variants ranked by macro_f1 ===
+ variant  macro_f1
+       1  0.788520
+       9  0.779200
+       4  0.776679
+      12  0.775178
+       6  0.768796
+       3  0.766578
+       5  0.763257
+      11  0.762309
+      10  0.750263
+       7  0.721371
+       8  0.718040
+       2  0.713224
+Saved plot to plot/moderate_aug_macro_f1.png
+
+=== Experiment 'moderate_aug' — variants ranked by accuracy ===
+ variant  accuracy
+       1    0.7975
+       9    0.7850
+       4    0.7825
+      12    0.7800
+       6    0.7750
+       3    0.7725
+       5    0.7700
+      11    0.7700
+      10    0.7575
+       8    0.7350
+       2    0.7225
+       7    0.7225
+Saved plot to plot/moderate_aug_accuracy.png
+
+=== Experiment 'moderate_aug' — variants ranked by roc_auc ===
+ variant  roc_auc
+      11 0.908839
+      12 0.908421
+       1 0.903764
+       4 0.903180
+       6 0.901748
+       9 0.897169
+       3 0.896497
+       5 0.885206
+       7 0.882961
+       2 0.881032
+      10 0.879884
+       8 0.873338
+Saved plot to plot/moderate_aug_roc_auc.png
+
+=== Experiment 'moderate_aug' — variants ranked by cohen_kappa ===
+ variant  cohen_kappa
+       1     0.687765
+       9     0.670375
+       4     0.668268
+      12     0.661951
+       6     0.656764
+       3     0.653749
+       5     0.648466
+      11     0.648452
+      10     0.627084
+       8     0.590643
+       2     0.580293
+       7     0.575111
+Saved plot to plot/moderate_aug_cohen_kappa.png
+
+=== Experiment 'high_aug' — variants ranked by weighted_f1 ===
+ variant  weighted_f1
+       6     0.774546
+       5     0.771696
+      10     0.771124
+       3     0.769941
+       7     0.765105
+       9     0.764949
+       2     0.764613
+       8     0.761223
+       4     0.756118
+      12     0.751808
+      11     0.707008
+Saved plot to plot/high_aug_weighted_f1.png
+
+=== Experiment 'high_aug' — variants ranked by macro_f1 ===
+ variant  macro_f1
+       5  0.765799
+       6  0.763221
+      10  0.761817
+       3  0.761531
+       7  0.759849
+       2  0.757646
+       8  0.754267
+       9  0.752585
+       4  0.747038
+      12  0.740248
+      11  0.689068
+Saved plot to plot/high_aug_macro_f1.png
+
+=== Experiment 'high_aug' — variants ranked by accuracy ===
+ variant  accuracy
+       6    0.7725
+       5    0.7700
+      10    0.7700
+       3    0.7675
+       2    0.7650
+       7    0.7650
+       8    0.7650
+       9    0.7650
+       4    0.7550
+      12    0.7500
+      11    0.7100
+Saved plot to plot/high_aug_accuracy.png
+
+=== Experiment 'high_aug' — variants ranked by roc_auc ===
+ variant  roc_auc
+       3 0.901889
+       2 0.899390
+       7 0.898478
+       8 0.897733
+      10 0.893269
+       5 0.892361
+       6 0.891691
+       4 0.890741
+       9 0.887643
+      12 0.885947
+      11 0.861942
+Saved plot to plot/high_aug_roc_auc.png
+
+=== Experiment 'high_aug' — variants ranked by cohen_kappa ===
+ variant  cohen_kappa
+       6     0.651611
+       5     0.649877
+      10     0.648808
+       3     0.646297
+       7     0.641423
+       8     0.639256
+       2     0.638871
+       9     0.636943
+       4     0.625497
+      12     0.616730
+      11     0.550266
+Saved plot to plot/high_aug_cohen_kappa.png
+
+=== Experiment 'full_aug' — variants ranked by weighted_f1 ===
+ variant  weighted_f1
+      12     0.804960
+       4     0.796398
+       9     0.785923
+       6     0.783292
+       7     0.779703
+       3     0.776744
+       8     0.775983
+      11     0.774863
+       2     0.759634
+      10     0.750138
+       5     0.718040
+Saved plot to plot/full_aug_weighted_f1.png
+
+=== Experiment 'full_aug' — variants ranked by macro_f1 ===
+ variant  macro_f1
+      12  0.797714
+       4  0.787522
+       7  0.777638
+       9  0.777024
+       6  0.775606
+       3  0.768730
+      11  0.765595
+       8  0.764102
+       2  0.753009
+      10  0.740905
+       5  0.705955
+Saved plot to plot/full_aug_macro_f1.png
+
+=== Experiment 'full_aug' — variants ranked by accuracy ===
+ variant  accuracy
+      12    0.8050
+       4    0.7950
+       6    0.7850
+       9    0.7850
+       7    0.7800
+       8    0.7775
+      11    0.7750
+       3    0.7725
+       2    0.7575
+      10    0.7500
+       5    0.7175
+Saved plot to plot/full_aug_accuracy.png
+
+=== Experiment 'full_aug' — variants ranked by roc_auc ===
+ variant  roc_auc
+      12 0.923309
+       4 0.913806
+       6 0.906024
+       7 0.901462
+       3 0.900760
+       2 0.900740
+       9 0.900111
+       8 0.889911
+      11 0.889316
+      10 0.875956
+       5 0.871339
+Saved plot to plot/full_aug_roc_auc.png
+
+=== Experiment 'full_aug' — variants ranked by cohen_kappa ===
+ variant  cohen_kappa
+      12     0.700983
+       4     0.686097
+       9     0.670804
+       6     0.668574
+       7     0.666686
+       3     0.659045
+       8     0.657926
+      11     0.655169
+       2     0.628967
+      10     0.616399
+       5     0.567493
+Saved plot to plot/full_aug_cohen_kappa.png
+
+=== Experiment 'synthetic_only' — variants ranked by weighted_f1 ===
+ variant  weighted_f1
+       1     0.752735
+       8     0.627298
+       6     0.613480
+      11     0.556555
+      12     0.531502
+       4     0.529945
+       3     0.512525
+       7     0.501634
+       2     0.479132
+      10     0.445283
+       9     0.431528
+       5     0.409419
+Saved plot to plot/synthetic_only_weighted_f1.png
+
+=== Experiment 'synthetic_only' — variants ranked by macro_f1 ===
+ variant  macro_f1
+       1  0.746276
+       8  0.608630
+       6  0.606535
+      11  0.547016
+      12  0.526065
+       4  0.508810
+       7  0.508210
+       3  0.499097
+       2  0.475484
+      10  0.449894
+       9  0.425544
+       5  0.416946
+Saved plot to plot/synthetic_only_macro_f1.png
+
+=== Experiment 'synthetic_only' — variants ranked by accuracy ===
+ variant  accuracy
+       1    0.7525
+       8    0.6250
+       6    0.6075
+      11    0.5575
+      12    0.5375
+       4    0.5350
+       7    0.5300
+       3    0.4975
+       2    0.4900
+      10    0.4850
+       9    0.4325
+       5    0.4225
+Saved plot to plot/synthetic_only_accuracy.png
+
+=== Experiment 'synthetic_only' — variants ranked by roc_auc ===
+ variant  roc_auc
+       1 0.882823
+       6 0.796812
+       8 0.769669
+      12 0.755178
+      10 0.729770
+       3 0.719801
+       7 0.716097
+      11 0.715525
+       2 0.683310
+       4 0.665590
+       9 0.623306
+       5 0.608876
+Saved plot to plot/synthetic_only_roc_auc.png
+
+=== Experiment 'synthetic_only' — variants ranked by cohen_kappa ===
+ variant  cohen_kappa
+       1     0.620035
+       8     0.427852
+       6     0.424866
+      11     0.320028
+      12     0.316984
+       7     0.306324
+       4     0.278776
+       3     0.266343
+      10     0.255040
+       2     0.230051
+       5     0.161022
+       9     0.150290
+Saved plot to plot/synthetic_only_cohen_kappa.png
+
+=== Variant 1 — experiments ranked by weighted_f1 ===
+    experiment  weighted_f1
+  moderate_aug     0.796559
+       low_aug     0.784796
+     real_only     0.767288
+synthetic_only     0.752735
+
+=== Variant 1 — experiments ranked by macro_f1 ===
+    experiment  macro_f1
+  moderate_aug  0.788520
+       low_aug  0.773713
+     real_only  0.757070
+synthetic_only  0.746276
+
+=== Variant 1 — experiments ranked by accuracy ===
+    experiment  accuracy
+  moderate_aug    0.7975
+       low_aug    0.7825
+     real_only    0.7650
+synthetic_only    0.7525
+
+=== Variant 1 — experiments ranked by roc_auc ===
+    experiment  roc_auc
+       low_aug 0.912161
+  moderate_aug 0.903764
+     real_only 0.891985
+synthetic_only 0.882823
+
+=== Variant 1 — experiments ranked by cohen_kappa ===
+    experiment  cohen_kappa
+  moderate_aug     0.687765
+       low_aug     0.668360
+     real_only     0.642266
+synthetic_only     0.620035
+Saved plot → plot/variant_1_metrics.png
+
+=== Variant 2 — experiments ranked by weighted_f1 ===
+    experiment  weighted_f1
+     real_only     0.767288
+      high_aug     0.764613
+      full_aug     0.759634
+       low_aug     0.753437
+  moderate_aug     0.727816
+synthetic_only     0.479132
+
+=== Variant 2 — experiments ranked by macro_f1 ===
+    experiment  macro_f1
+      high_aug  0.757646
+     real_only  0.757070
+      full_aug  0.753009
+       low_aug  0.744277
+  moderate_aug  0.713224
+synthetic_only  0.475484
+
+=== Variant 2 — experiments ranked by accuracy ===
+    experiment  accuracy
+     real_only    0.7650
+      high_aug    0.7650
+      full_aug    0.7575
+       low_aug    0.7525
+  moderate_aug    0.7225
+synthetic_only    0.4900
+
+=== Variant 2 — experiments ranked by roc_auc ===
+    experiment  roc_auc
+       low_aug 0.906255
+      full_aug 0.900740
+      high_aug 0.899390
+     real_only 0.891985
+  moderate_aug 0.881032
+synthetic_only 0.683310
+
+=== Variant 2 — experiments ranked by cohen_kappa ===
+    experiment  cohen_kappa
+     real_only     0.642266
+      high_aug     0.638871
+      full_aug     0.628967
+       low_aug     0.619315
+  moderate_aug     0.580293
+synthetic_only     0.230051
+Saved plot → plot/variant_2_metrics.png
+
+=== Variant 3 — experiments ranked by weighted_f1 ===
+    experiment  weighted_f1
+       low_aug     0.782309
+      full_aug     0.776744
+  moderate_aug     0.773900
+      high_aug     0.769941
+     real_only     0.767288
+synthetic_only     0.512525
+
+=== Variant 3 — experiments ranked by macro_f1 ===
+    experiment  macro_f1
+       low_aug  0.769715
+      full_aug  0.768730
+  moderate_aug  0.766578
+      high_aug  0.761531
+     real_only  0.757070
+synthetic_only  0.499097
+
+=== Variant 3 — experiments ranked by accuracy ===
+    experiment  accuracy
+       low_aug    0.7850
+  moderate_aug    0.7725
+      full_aug    0.7725
+      high_aug    0.7675
+     real_only    0.7650
+synthetic_only    0.4975
+
+=== Variant 3 — experiments ranked by roc_auc ===
+    experiment  roc_auc
+       low_aug 0.912008
+      high_aug 0.901889
+      full_aug 0.900760
+  moderate_aug 0.896497
+     real_only 0.891985
+synthetic_only 0.719801
+
+=== Variant 3 — experiments ranked by cohen_kappa ===
+    experiment  cohen_kappa
+       low_aug     0.666654
+      full_aug     0.659045
+  moderate_aug     0.653749
+      high_aug     0.646297
+     real_only     0.642266
+synthetic_only     0.266343
+Saved plot → plot/variant_3_metrics.png
+
+=== Variant 4 — experiments ranked by weighted_f1 ===
+    experiment  weighted_f1
+      full_aug     0.796398
+  moderate_aug     0.783380
+       low_aug     0.771700
+     real_only     0.767288
+      high_aug     0.756118
+synthetic_only     0.529945
+
+=== Variant 4 — experiments ranked by macro_f1 ===
+    experiment  macro_f1
+      full_aug  0.787522
+  moderate_aug  0.776679
+       low_aug  0.760778
+     real_only  0.757070
+      high_aug  0.747038
+synthetic_only  0.508810
+
+=== Variant 4 — experiments ranked by accuracy ===
+    experiment  accuracy
+      full_aug    0.7950
+  moderate_aug    0.7825
+       low_aug    0.7725
+     real_only    0.7650
+      high_aug    0.7550
+synthetic_only    0.5350
+
+=== Variant 4 — experiments ranked by roc_auc ===
+    experiment  roc_auc
+      full_aug 0.913806
+       low_aug 0.910826
+  moderate_aug 0.903180
+     real_only 0.891985
+      high_aug 0.890741
+synthetic_only 0.665590
+
+=== Variant 4 — experiments ranked by cohen_kappa ===
+    experiment  cohen_kappa
+      full_aug     0.686097
+  moderate_aug     0.668268
+       low_aug     0.649390
+     real_only     0.642266
+      high_aug     0.625497
+synthetic_only     0.278776
+Saved plot → plot/variant_4_metrics.png
+
+=== Variant 5 — experiments ranked by weighted_f1 ===
+    experiment  weighted_f1
+       low_aug     0.773578
+      high_aug     0.771696
+  moderate_aug     0.770305
+     real_only     0.767288
+      full_aug     0.718040
+synthetic_only     0.409419
+
+=== Variant 5 — experiments ranked by macro_f1 ===
+    experiment  macro_f1
+      high_aug  0.765799
+  moderate_aug  0.763257
+       low_aug  0.762845
+     real_only  0.757070
+      full_aug  0.705955
+synthetic_only  0.416946
+
+=== Variant 5 — experiments ranked by accuracy ===
+    experiment  accuracy
+       low_aug    0.7725
+  moderate_aug    0.7700
+      high_aug    0.7700
+     real_only    0.7650
+      full_aug    0.7175
+synthetic_only    0.4225
+
+=== Variant 5 — experiments ranked by roc_auc ===
+    experiment  roc_auc
+       low_aug 0.903173
+      high_aug 0.892361
+     real_only 0.891985
+  moderate_aug 0.885206
+      full_aug 0.871339
+synthetic_only 0.608876
+
+=== Variant 5 — experiments ranked by cohen_kappa ===
+    experiment  cohen_kappa
+       low_aug     0.650269
+      high_aug     0.649877
+  moderate_aug     0.648466
+     real_only     0.642266
+      full_aug     0.567493
+synthetic_only     0.161022
+Saved plot → plot/variant_5_metrics.png
+
+=== Variant 6 — experiments ranked by weighted_f1 ===
+    experiment  weighted_f1
+      full_aug     0.783292
+       low_aug     0.780530
+  moderate_aug     0.777205
+      high_aug     0.774546
+     real_only     0.767288
+synthetic_only     0.613480
+
+=== Variant 6 — experiments ranked by macro_f1 ===
+    experiment  macro_f1
+      full_aug  0.775606
+       low_aug  0.774241
+  moderate_aug  0.768796
+      high_aug  0.763221
+     real_only  0.757070
+synthetic_only  0.606535
+
+=== Variant 6 — experiments ranked by accuracy ===
+    experiment  accuracy
+      full_aug    0.7850
+       low_aug    0.7800
+  moderate_aug    0.7750
+      high_aug    0.7725
+     real_only    0.7650
+synthetic_only    0.6075
+
+=== Variant 6 — experiments ranked by roc_auc ===
+    experiment  roc_auc
+       low_aug 0.908282
+      full_aug 0.906024
+  moderate_aug 0.901748
+     real_only 0.891985
+      high_aug 0.891691
+synthetic_only 0.796812
+
+=== Variant 6 — experiments ranked by cohen_kappa ===
+    experiment  cohen_kappa
+      full_aug     0.668574
+       low_aug     0.663914
+  moderate_aug     0.656764
+      high_aug     0.651611
+     real_only     0.642266
+synthetic_only     0.424866
+Saved plot → plot/variant_6_metrics.png
+
+=== Variant 7 — experiments ranked by weighted_f1 ===
+    experiment  weighted_f1
+      full_aug     0.779703
+     real_only     0.767288
+      high_aug     0.765105
+       low_aug     0.763656
+  moderate_aug     0.723161
+synthetic_only     0.501634
+
+=== Variant 7 — experiments ranked by macro_f1 ===
+    experiment  macro_f1
+      full_aug  0.777638
+      high_aug  0.759849
+     real_only  0.757070
+       low_aug  0.753606
+  moderate_aug  0.721371
+synthetic_only  0.508210
+
+=== Variant 7 — experiments ranked by accuracy ===
+    experiment  accuracy
+      full_aug    0.7800
+     real_only    0.7650
+      high_aug    0.7650
+       low_aug    0.7625
+  moderate_aug    0.7225
+synthetic_only    0.5300
+
+=== Variant 7 — experiments ranked by roc_auc ===
+    experiment  roc_auc
+       low_aug 0.907231
+      full_aug 0.901462
+      high_aug 0.898478
+     real_only 0.891985
+  moderate_aug 0.882961
+synthetic_only 0.716097
+
+=== Variant 7 — experiments ranked by cohen_kappa ===
+    experiment  cohen_kappa
+      full_aug     0.666686
+     real_only     0.642266
+      high_aug     0.641423
+       low_aug     0.635666
+  moderate_aug     0.575111
+synthetic_only     0.306324
+Saved plot → plot/variant_7_metrics.png
+
+=== Variant 8 — experiments ranked by weighted_f1 ===
+    experiment  weighted_f1
+       low_aug     0.784353
+      full_aug     0.775983
+     real_only     0.767288
+      high_aug     0.761223
+  moderate_aug     0.733574
+synthetic_only     0.627298
+
+=== Variant 8 — experiments ranked by macro_f1 ===
+    experiment  macro_f1
+       low_aug  0.775527
+      full_aug  0.764102
+     real_only  0.757070
+      high_aug  0.754267
+  moderate_aug  0.718040
+synthetic_only  0.608630
+
+=== Variant 8 — experiments ranked by accuracy ===
+    experiment  accuracy
+       low_aug    0.7825
+      full_aug    0.7775
+     real_only    0.7650
+      high_aug    0.7650
+  moderate_aug    0.7350
+synthetic_only    0.6250
+
+=== Variant 8 — experiments ranked by roc_auc ===
+    experiment  roc_auc
+       low_aug 0.905083
+      high_aug 0.897733
+     real_only 0.891985
+      full_aug 0.889911
+  moderate_aug 0.873338
+synthetic_only 0.769669
+
+=== Variant 8 — experiments ranked by cohen_kappa ===
+    experiment  cohen_kappa
+       low_aug     0.667450
+      full_aug     0.657926
+     real_only     0.642266
+      high_aug     0.639256
+  moderate_aug     0.590643
+synthetic_only     0.427852
+Saved plot → plot/variant_8_metrics.png
+
+=== Variant 9 — experiments ranked by weighted_f1 ===
+    experiment  weighted_f1
+  moderate_aug     0.785956
+      full_aug     0.785923
+     real_only     0.767288
+      high_aug     0.764949
+       low_aug     0.762759
+synthetic_only     0.431528
+
+=== Variant 9 — experiments ranked by macro_f1 ===
+    experiment  macro_f1
+  moderate_aug  0.779200
+      full_aug  0.777024
+     real_only  0.757070
+       low_aug  0.753285
+      high_aug  0.752585
+synthetic_only  0.425544
+
+=== Variant 9 — experiments ranked by accuracy ===
+    experiment  accuracy
+  moderate_aug    0.7850
+      full_aug    0.7850
+     real_only    0.7650
+      high_aug    0.7650
+       low_aug    0.7625
+synthetic_only    0.4325
+
+=== Variant 9 — experiments ranked by roc_auc ===
+    experiment  roc_auc
+      full_aug 0.900111
+  moderate_aug 0.897169
+       low_aug 0.896577
+     real_only 0.891985
+      high_aug 0.887643
+synthetic_only 0.623306
+
+=== Variant 9 — experiments ranked by cohen_kappa ===
+    experiment  cohen_kappa
+      full_aug     0.670804
+  moderate_aug     0.670375
+     real_only     0.642266
+      high_aug     0.636943
+       low_aug     0.635565
+synthetic_only     0.150290
+Saved plot → plot/variant_9_metrics.png
+
+=== Variant 10 — experiments ranked by weighted_f1 ===
+    experiment  weighted_f1
+       low_aug     0.811183
+      high_aug     0.771124
+     real_only     0.767288
+  moderate_aug     0.757275
+      full_aug     0.750138
+synthetic_only     0.445283
+
+=== Variant 10 — experiments ranked by macro_f1 ===
+    experiment  macro_f1
+       low_aug  0.803480
+      high_aug  0.761817
+     real_only  0.757070
+  moderate_aug  0.750263
+      full_aug  0.740905
+synthetic_only  0.449894
+
+=== Variant 10 — experiments ranked by accuracy ===
+    experiment  accuracy
+       low_aug    0.8100
+      high_aug    0.7700
+     real_only    0.7650
+  moderate_aug    0.7575
+      full_aug    0.7500
+synthetic_only    0.4850
+
+=== Variant 10 — experiments ranked by roc_auc ===
+    experiment  roc_auc
+       low_aug 0.917983
+      high_aug 0.893269
+     real_only 0.891985
+  moderate_aug 0.879884
+      full_aug 0.875956
+synthetic_only 0.729770
+
+=== Variant 10 — experiments ranked by cohen_kappa ===
+    experiment  cohen_kappa
+       low_aug     0.710184
+      high_aug     0.648808
+     real_only     0.642266
+  moderate_aug     0.627084
+      full_aug     0.616399
+synthetic_only     0.255040
+Saved plot → plot/variant_10_metrics.png
+
+=== Variant 11 — experiments ranked by weighted_f1 ===
+    experiment  weighted_f1
+      full_aug     0.774863
+  moderate_aug     0.770625
+     real_only     0.767288
+       low_aug     0.760382
+      high_aug     0.707008
+synthetic_only     0.556555
+
+=== Variant 11 — experiments ranked by macro_f1 ===
+    experiment  macro_f1
+      full_aug  0.765595
+  moderate_aug  0.762309
+     real_only  0.757070
+       low_aug  0.749473
+      high_aug  0.689068
+synthetic_only  0.547016
+
+=== Variant 11 — experiments ranked by accuracy ===
+    experiment  accuracy
+      full_aug    0.7750
+  moderate_aug    0.7700
+     real_only    0.7650
+       low_aug    0.7600
+      high_aug    0.7100
+synthetic_only    0.5575
+
+=== Variant 11 — experiments ranked by roc_auc ===
+    experiment  roc_auc
+  moderate_aug 0.908839
+       low_aug 0.904780
+     real_only 0.891985
+      full_aug 0.889316
+      high_aug 0.861942
+synthetic_only 0.715525
+
+=== Variant 11 — experiments ranked by cohen_kappa ===
+    experiment  cohen_kappa
+      full_aug     0.655169
+  moderate_aug     0.648452
+     real_only     0.642266
+       low_aug     0.630019
+      high_aug     0.550266
+synthetic_only     0.320028
+Saved plot → plot/variant_11_metrics.png
+
+=== Variant 12 — experiments ranked by weighted_f1 ===
+    experiment  weighted_f1
+      full_aug     0.804960
+  moderate_aug     0.780695
+       low_aug     0.772517
+     real_only     0.767288
+      high_aug     0.751808
+synthetic_only     0.531502
+
+=== Variant 12 — experiments ranked by macro_f1 ===
+    experiment  macro_f1
+      full_aug  0.797714
+  moderate_aug  0.775178
+       low_aug  0.767535
+     real_only  0.757070
+      high_aug  0.740248
+synthetic_only  0.526065
+
+=== Variant 12 — experiments ranked by accuracy ===
+    experiment  accuracy
+      full_aug    0.8050
+  moderate_aug    0.7800
+       low_aug    0.7700
+     real_only    0.7650
+      high_aug    0.7500
+synthetic_only    0.5375
+
+=== Variant 12 — experiments ranked by roc_auc ===
+    experiment  roc_auc
+      full_aug 0.923309
+  moderate_aug 0.908421
+       low_aug 0.907031
+     real_only 0.891985
+      high_aug 0.885947
+synthetic_only 0.755178
+
+=== Variant 12 — experiments ranked by cohen_kappa ===
+    experiment  cohen_kappa
+      full_aug     0.700983
+  moderate_aug     0.661951
+       low_aug     0.648825
+     real_only     0.642266
+      high_aug     0.616730
+synthetic_only     0.316984
+Saved plot → plot/variant_12_metrics.png
+
+=== Negative-class F1 ===
+experiment  full_aug  high_aug  low_aug  moderate_aug  real_only  synthetic_only
+variant                                                                         
+1                NaN       NaN    0.780         0.800      0.770           0.740
+2              0.750     0.750    0.740         0.720      0.770           0.410
+3              0.760     0.740    0.780         0.750      0.770           0.580
+4              0.780     0.730    0.770         0.760      0.770           0.560
+5              0.700     0.760    0.760         0.750      0.770           0.440
+6              0.760     0.760    0.770         0.750      0.770           0.570
+7              0.760     0.740    0.760         0.720      0.770           0.350
+8              0.760     0.730    0.780         0.740      0.770           0.660
+9              0.770     0.760    0.760         0.780      0.770           0.500
+10             0.740     0.750    0.800         0.760      0.770           0.630
+11             0.770     0.710    0.760         0.740      0.770           0.560
+12             0.790     0.740    0.760         0.780      0.770           0.630
+
+=== Neutral-class F1 ===
+experiment  full_aug  high_aug  low_aug  moderate_aug  real_only  synthetic_only
+variant                                                                         
+1                NaN       NaN    0.690         0.730      0.680           0.700
+2              0.700     0.710    0.680         0.610      0.680           0.450
+3              0.710     0.700    0.680         0.710      0.680           0.400
+4              0.720     0.680    0.680         0.730      0.680           0.360
+5              0.620     0.720    0.680         0.710      0.680           0.470
+6              0.720     0.680    0.730         0.710      0.680           0.550
+7              0.760     0.720    0.680         0.710      0.680           0.550
+8              0.680     0.700    0.710         0.610      0.680           0.470
+9              0.710     0.660    0.680         0.730      0.680           0.380
+10             0.670     0.690    0.750         0.700      0.680           0.490
+11             0.700     0.560    0.670         0.700      0.680           0.480
+12             0.740     0.660    0.730         0.740      0.680           0.490
+
+=== Positive-class F1 ===
+experiment  full_aug  high_aug  low_aug  moderate_aug  real_only  synthetic_only
+variant                                                                         
+1                NaN       NaN    0.840         0.840      0.820           0.800
+2              0.810     0.820    0.810         0.810      0.820           0.570
+3              0.840     0.850    0.850         0.830      0.820           0.520
+4              0.870     0.830    0.830         0.840      0.820           0.600
+5              0.800     0.810    0.840         0.830      0.820           0.340
+6              0.850     0.850    0.830         0.850      0.820           0.690
+7              0.810     0.820    0.820         0.730      0.820           0.620
+8              0.850     0.830    0.840         0.810      0.820           0.690
+9              0.850     0.840    0.820         0.830      0.820           0.400
+10             0.810     0.840    0.860         0.800      0.820           0.230
+11             0.830     0.790    0.820         0.850      0.820           0.600
+12             0.860     0.830    0.810         0.810      0.820           0.450
+
+=== Variant 1  (moderate_aug)  confusion matrix ===
+[[129  10  14]
+ [ 23  65   8]
+ [ 19   7 125]]
+
+=== Variant 2  (high_aug)  confusion matrix ===
+[[117  16  20]
+ [ 24  65   7]
+ [ 20   7 124]]
+
+=== Variant 3  (low_aug)  confusion matrix ===
+[[131  12  10]
+ [ 29  57  10]
+ [ 22   3 126]]
+
+=== Variant 4  (full_aug)  confusion matrix ===
+[[124  19  10]
+ [ 24  69   3]
+ [ 19   7 125]]
+
+=== Variant 5  (high_aug)  confusion matrix ===
+[[120  24   9]
+ [ 15  73   8]
+ [ 27   9 115]]
+
+=== Variant 6  (full_aug)  confusion matrix ===
+[[118  15  20]
+ [ 24  64   8]
+ [ 16   3 132]]
+
+=== Variant 7  (full_aug)  confusion matrix ===
+[[108  22  23]
+ [  9  80   7]
+ [ 15  12 124]]
+
+=== Variant 8  (low_aug)  confusion matrix ===
+[[126  19   8]
+ [ 23  69   4]
+ [ 23  10 118]]
+
+=== Variant 9  (moderate_aug)  confusion matrix ===
+[[129  13  11]
+ [ 24  69   3]
+ [ 24  11 116]]
+
+=== Variant 10  (low_aug)  confusion matrix ===
+[[125  19   9]
+ [ 16  74   6]
+ [ 17   9 125]]
+
+=== Variant 11  (full_aug)  confusion matrix ===
+[[120  16  17]
+ [ 22  66   8]
+ [ 16  11 124]]
+
+=== Variant 12  (full_aug)  confusion matrix ===
+[[123  15  15]
+ [ 21  70   5]
+ [ 15   7 129]]
+
+=== Negative-class Precision vs Recall ===
+ variant     experiment  precision  recall
+       7       full_aug      0.820   0.710
+       3       full_aug      0.810   0.710
+      10        low_aug      0.790   0.820
+       8       high_aug      0.780   0.680
+      12       full_aug      0.770   0.800
+      11       full_aug      0.760   0.780
+       6        low_aug      0.760   0.770
+       4   moderate_aug      0.760   0.760
+       3   moderate_aug      0.760   0.750
+       1   moderate_aug      0.750   0.840
+       1        low_aug      0.750   0.820
+       1      real_only      0.750   0.790
+       2      real_only      0.750   0.790
+       3      real_only      0.750   0.790
+       4      real_only      0.750   0.790
+       5      real_only      0.750   0.790
+       6      real_only      0.750   0.790
+       7      real_only      0.750   0.790
+       8      real_only      0.750   0.790
+       9      real_only      0.750   0.790
+      10      real_only      0.750   0.790
+      11      real_only      0.750   0.790
+      12      real_only      0.750   0.790
+       6       full_aug      0.750   0.770
+       8       full_aug      0.750   0.770
+      10       high_aug      0.750   0.760
+       5   moderate_aug      0.750   0.750
+       7       high_aug      0.750   0.730
+       4       full_aug      0.740   0.810
+       9       full_aug      0.740   0.800
+       5       high_aug      0.740   0.780
+      11   moderate_aug      0.740   0.750
+       9   moderate_aug      0.730   0.840
+       8        low_aug      0.730   0.820
+       6   moderate_aug      0.730   0.780
+       2       high_aug      0.730   0.760
+       3       high_aug      0.730   0.750
+       2   moderate_aug      0.730   0.720
+       6 synthetic_only      0.730   0.470
+       3        low_aug      0.720   0.860
+       4        low_aug      0.720   0.820
+       6       high_aug      0.720   0.800
+      10   moderate_aug      0.720   0.800
+       9        low_aug      0.720   0.790
+      10       full_aug      0.720   0.770
+       4       high_aug      0.720   0.750
+      12   moderate_aug      0.710   0.860
+       5        low_aug      0.710   0.830
+       7        low_aug      0.710   0.830
+       1 synthetic_only      0.710   0.760
+       7 synthetic_only      0.710   0.240
+      12        low_aug      0.700   0.830
+      11        low_aug      0.690   0.840
+       2       full_aug      0.690   0.820
+       2        low_aug      0.690   0.810
+      12       high_aug      0.690   0.790
+       5       full_aug      0.690   0.710
+       9       high_aug      0.680   0.850
+       8   moderate_aug      0.670   0.810
+       7   moderate_aug      0.650   0.810
+       3 synthetic_only      0.650   0.520
+      11       high_aug      0.640   0.810
+       8 synthetic_only      0.630   0.700
+      10 synthetic_only      0.620   0.650
+      12 synthetic_only      0.610   0.660
+       2 synthetic_only      0.590   0.310
+      11 synthetic_only      0.550   0.580
+       4 synthetic_only      0.500   0.650
+       5 synthetic_only      0.500   0.400
+       9 synthetic_only      0.480   0.520
+Saved scatter → plots/prec_rec_negative.png
+
+=== Neutral-class Precision vs Recall ===
+ variant     experiment  precision  recall
+       1   moderate_aug      0.790   0.680
+       3        low_aug      0.790   0.590
+       6       full_aug      0.780   0.670
+      12       full_aug      0.760   0.730
+      12   moderate_aug      0.760   0.710
+       9   moderate_aug      0.740   0.720
+       2       high_aug      0.740   0.680
+      10   moderate_aug      0.740   0.670
+      10        low_aug      0.730   0.770
+       4       full_aug      0.730   0.720
+       8       high_aug      0.730   0.680
+       4        low_aug      0.730   0.640
+       9       high_aug      0.730   0.600
+       6        low_aug      0.720   0.740
+       9       full_aug      0.720   0.710
+       1 synthetic_only      0.720   0.680
+       5        low_aug      0.720   0.660
+      11        low_aug      0.720   0.620
+       4   moderate_aug      0.710   0.750
+      12        low_aug      0.710   0.750
+       7   moderate_aug      0.710   0.710
+      11       full_aug      0.710   0.690
+       2        low_aug      0.710   0.650
+       8       full_aug      0.710   0.650
+       7       full_aug      0.700   0.830
+       7       high_aug      0.700   0.740
+       5   moderate_aug      0.700   0.720
+       8        low_aug      0.700   0.720
+       2       full_aug      0.700   0.710
+       7        low_aug      0.700   0.670
+       9        low_aug      0.700   0.670
+       5       high_aug      0.690   0.760
+       6   moderate_aug      0.690   0.730
+      11   moderate_aug      0.690   0.710
+      10       full_aug      0.690   0.660
+       3   moderate_aug      0.680   0.750
+      10       high_aug      0.680   0.710
+       6       high_aug      0.680   0.680
+       1        low_aug      0.670   0.720
+       4       high_aug      0.670   0.690
+      12       high_aug      0.670   0.650
+       8   moderate_aug      0.670   0.550
+       3       high_aug      0.660   0.740
+       1      real_only      0.650   0.720
+       2      real_only      0.650   0.720
+       3      real_only      0.650   0.720
+       4      real_only      0.650   0.720
+       5      real_only      0.650   0.720
+       6      real_only      0.650   0.720
+       7      real_only      0.650   0.720
+       8      real_only      0.650   0.720
+       9      real_only      0.650   0.720
+      10      real_only      0.650   0.720
+      11      real_only      0.650   0.720
+      12      real_only      0.650   0.720
+      11       high_aug      0.650   0.490
+       5       full_aug      0.620   0.610
+       3       full_aug      0.610   0.850
+       2   moderate_aug      0.550   0.680
+      11 synthetic_only      0.500   0.460
+       8 synthetic_only      0.460   0.490
+       7 synthetic_only      0.440   0.740
+       6 synthetic_only      0.430   0.790
+       4 synthetic_only      0.420   0.310
+       2 synthetic_only      0.400   0.500
+      12 synthetic_only      0.390   0.670
+      10 synthetic_only      0.360   0.770
+       5 synthetic_only      0.350   0.720
+       9 synthetic_only      0.330   0.470
+       3 synthetic_only      0.310   0.590
+Saved scatter → plots/prec_rec_neutral.png
+
+=== Positive-class Precision vs Recall ===
+ variant     experiment  precision  recall
+      12        low_aug      0.930   0.720
+       4       full_aug      0.910   0.830
+       6       high_aug      0.910   0.800
+       1        low_aug      0.910   0.790
+       8        low_aug      0.910   0.780
+       6   moderate_aug      0.900   0.800
+       3       full_aug      0.900   0.790
+       5        low_aug      0.900   0.790
+       9       high_aug      0.900   0.780
+       2       full_aug      0.900   0.730
+      10        low_aug      0.890   0.830
+       3       high_aug      0.890   0.810
+       9   moderate_aug      0.890   0.770
+      12       high_aug      0.890   0.770
+      11        low_aug      0.890   0.760
+       7        low_aug      0.890   0.750
+      12   moderate_aug      0.890   0.750
+       9       full_aug      0.880   0.820
+       1      real_only      0.880   0.770
+       2      real_only      0.880   0.770
+       3      real_only      0.880   0.770
+       4      real_only      0.880   0.770
+       5      real_only      0.880   0.770
+       6      real_only      0.880   0.770
+       7      real_only      0.880   0.770
+       8      real_only      0.880   0.770
+       9      real_only      0.880   0.770
+      10      real_only      0.880   0.770
+      11      real_only      0.880   0.770
+      12      real_only      0.880   0.770
+      12       full_aug      0.870   0.850
+       2        low_aug      0.870   0.760
+       5       high_aug      0.870   0.760
+       2   moderate_aug      0.870   0.750
+       3        low_aug      0.860   0.830
+       4   moderate_aug      0.860   0.830
+      11   moderate_aug      0.860   0.830
+       3   moderate_aug      0.860   0.810
+      10       high_aug      0.860   0.810
+       7   moderate_aug      0.860   0.640
+       1   moderate_aug      0.850   0.830
+       4        low_aug      0.850   0.810
+       4       high_aug      0.850   0.810
+       9        low_aug      0.850   0.790
+       8   moderate_aug      0.850   0.770
+       8       full_aug      0.840   0.870
+       5   moderate_aug      0.840   0.830
+       6        low_aug      0.840   0.810
+      11       high_aug      0.840   0.750
+      11       full_aug      0.830   0.820
+      10       full_aug      0.830   0.790
+       6       full_aug      0.820   0.870
+       2       high_aug      0.820   0.820
+       7       high_aug      0.820   0.820
+       1 synthetic_only      0.820   0.790
+       5       full_aug      0.820   0.790
+      10   moderate_aug      0.820   0.770
+       7       full_aug      0.810   0.820
+       8       high_aug      0.770   0.910
+       6 synthetic_only      0.770   0.630
+       8 synthetic_only      0.760   0.640
+      12 synthetic_only      0.720   0.330
+       3 synthetic_only      0.680   0.420
+       4 synthetic_only      0.660   0.560
+      10 synthetic_only      0.620   0.140
+      11 synthetic_only      0.590   0.600
+       7 synthetic_only      0.560   0.700
+       9 synthetic_only      0.510   0.320
+       2 synthetic_only      0.500   0.660
+       5 synthetic_only      0.480   0.260
+Saved scatter → plots/prec_rec_positive.png
+
+=== Variant 1 metric table ===
+                weighted_f1  macro_f1  accuracy  roc_auc  cohen_kappa
+experiment                                                           
+real_only             0.767     0.757     0.765    0.892        0.642
+low_aug               0.785     0.774     0.782    0.912        0.668
+moderate_aug          0.797     0.789     0.797    0.904        0.688
+high_aug                NaN       NaN       NaN      NaN          NaN
+full_aug                NaN       NaN       NaN      NaN          NaN
+synthetic_only        0.753     0.746     0.752    0.883        0.620
+
+=== Variant 2 metric table ===
+                weighted_f1  macro_f1  accuracy  roc_auc  cohen_kappa
+experiment                                                           
+real_only             0.767     0.757     0.765    0.892        0.642
+low_aug               0.753     0.744     0.752    0.906        0.619
+moderate_aug          0.728     0.713     0.723    0.881        0.580
+high_aug              0.765     0.758     0.765    0.899        0.639
+full_aug              0.760     0.753     0.757    0.901        0.629
+synthetic_only        0.479     0.475     0.490    0.683        0.230
+
+=== Variant 3 metric table ===
+                weighted_f1  macro_f1  accuracy  roc_auc  cohen_kappa
+experiment                                                           
+real_only             0.767     0.757     0.765    0.892        0.642
+low_aug               0.782     0.770     0.785    0.912        0.667
+moderate_aug          0.774     0.767     0.772    0.896        0.654
+high_aug              0.770     0.762     0.767    0.902        0.646
+full_aug              0.777     0.769     0.772    0.901        0.659
+synthetic_only        0.513     0.499     0.497    0.720        0.266
+
+=== Variant 4 metric table ===
+                weighted_f1  macro_f1  accuracy  roc_auc  cohen_kappa
+experiment                                                           
+real_only             0.767     0.757     0.765    0.892        0.642
+low_aug               0.772     0.761     0.772    0.911        0.649
+moderate_aug          0.783     0.777     0.782    0.903        0.668
+high_aug              0.756     0.747     0.755    0.891        0.625
+full_aug              0.796     0.788     0.795    0.914        0.686
+synthetic_only        0.530     0.509     0.535    0.666        0.279
+
+=== Variant 5 metric table ===
+                weighted_f1  macro_f1  accuracy  roc_auc  cohen_kappa
+experiment                                                           
+real_only             0.767     0.757     0.765    0.892        0.642
+low_aug               0.774     0.763     0.772    0.903        0.650
+moderate_aug          0.770     0.763     0.770    0.885        0.648
+high_aug              0.772     0.766     0.770    0.892        0.650
+full_aug              0.718     0.706     0.718    0.871        0.567
+synthetic_only        0.409     0.417     0.422    0.609        0.161
+
+=== Variant 6 metric table ===
+                weighted_f1  macro_f1  accuracy  roc_auc  cohen_kappa
+experiment                                                           
+real_only             0.767     0.757     0.765    0.892        0.642
+low_aug               0.781     0.774     0.780    0.908        0.664
+moderate_aug          0.777     0.769     0.775    0.902        0.657
+high_aug              0.775     0.763     0.772    0.892        0.652
+full_aug              0.783     0.776     0.785    0.906        0.669
+synthetic_only        0.613     0.607     0.608    0.797        0.425
+
+=== Variant 7 metric table ===
+                weighted_f1  macro_f1  accuracy  roc_auc  cohen_kappa
+experiment                                                           
+real_only             0.767     0.757     0.765    0.892        0.642
+low_aug               0.764     0.754     0.762    0.907        0.636
+moderate_aug          0.723     0.721     0.723    0.883        0.575
+high_aug              0.765     0.760     0.765    0.898        0.641
+full_aug              0.780     0.778     0.780    0.901        0.667
+synthetic_only        0.502     0.508     0.530    0.716        0.306
+
+=== Variant 8 metric table ===
+                weighted_f1  macro_f1  accuracy  roc_auc  cohen_kappa
+experiment                                                           
+real_only             0.767     0.757     0.765    0.892        0.642
+low_aug               0.784     0.776     0.782    0.905        0.667
+moderate_aug          0.734     0.718     0.735    0.873        0.591
+high_aug              0.761     0.754     0.765    0.898        0.639
+full_aug              0.776     0.764     0.777    0.890        0.658
+synthetic_only        0.627     0.609     0.625    0.770        0.428
+
+=== Variant 9 metric table ===
+                weighted_f1  macro_f1  accuracy  roc_auc  cohen_kappa
+experiment                                                           
+real_only             0.767     0.757     0.765    0.892        0.642
+low_aug               0.763     0.753     0.762    0.897        0.636
+moderate_aug          0.786     0.779     0.785    0.897        0.670
+high_aug              0.765     0.753     0.765    0.888        0.637
+full_aug              0.786     0.777     0.785    0.900        0.671
+synthetic_only        0.432     0.426     0.432    0.623        0.150
+
+=== Variant 10 metric table ===
+                weighted_f1  macro_f1  accuracy  roc_auc  cohen_kappa
+experiment                                                           
+real_only             0.767     0.757     0.765    0.892        0.642
+low_aug               0.811     0.803     0.810    0.918        0.710
+moderate_aug          0.757     0.750     0.757    0.880        0.627
+high_aug              0.771     0.762     0.770    0.893        0.649
+full_aug              0.750     0.741     0.750    0.876        0.616
+synthetic_only        0.445     0.450     0.485    0.730        0.255
+
+=== Variant 11 metric table ===
+                weighted_f1  macro_f1  accuracy  roc_auc  cohen_kappa
+experiment                                                           
+real_only             0.767     0.757     0.765    0.892        0.642
+low_aug               0.760     0.749     0.760    0.905        0.630
+moderate_aug          0.771     0.762     0.770    0.909        0.648
+high_aug              0.707     0.689     0.710    0.862        0.550
+full_aug              0.775     0.766     0.775    0.889        0.655
+synthetic_only        0.557     0.547     0.557    0.716        0.320
+
+=== Variant 12 metric table ===
+                weighted_f1  macro_f1  accuracy  roc_auc  cohen_kappa
+experiment                                                           
+real_only             0.767     0.757     0.765    0.892        0.642
+low_aug               0.773     0.768     0.770    0.907        0.649
+moderate_aug          0.781     0.775     0.780    0.908        0.662
+high_aug              0.752     0.740     0.750    0.886        0.617
+full_aug              0.805     0.798     0.805    0.923        0.701
+synthetic_only        0.532     0.526     0.537    0.755        0.317
+
+=== Runtime vs Accuracy points ===
+ variant     experiment  runtime  accuracy  roc_auc
+      10        low_aug    0.138     0.810    0.918
+      12       full_aug    0.134     0.805    0.923
+       1   moderate_aug    0.135     0.797    0.904
+       4       full_aug    0.135     0.795    0.914
+       6       full_aug    0.134     0.785    0.906
+       9       full_aug    0.135     0.785    0.900
+       9   moderate_aug    0.134     0.785    0.897
+       3        low_aug    0.135     0.785    0.912
+       1        low_aug    0.135     0.782    0.912
+       8        low_aug    0.136     0.782    0.905
+       4   moderate_aug    0.135     0.782    0.903
+       6        low_aug    0.135     0.780    0.908
+       7       full_aug    0.136     0.780    0.901
+      12   moderate_aug    0.135     0.780    0.908
+       8       full_aug    0.134     0.777    0.890
+       6   moderate_aug    0.135     0.775    0.902
+      11       full_aug    0.135     0.775    0.889
+       3       full_aug    0.135     0.772    0.901
+       6       high_aug    0.135     0.772    0.892
+       5        low_aug    0.135     0.772    0.903
+       4        low_aug    0.135     0.772    0.911
+       3   moderate_aug    0.135     0.772    0.896
+      10       high_aug    0.135     0.770    0.893
+       5   moderate_aug    0.135     0.770    0.885
+       5       high_aug    0.137     0.770    0.892
+      12        low_aug    0.135     0.770    0.907
+      11   moderate_aug    0.135     0.770    0.909
+       3       high_aug    0.135     0.767    0.902
+       8      real_only    0.139     0.765    0.892
+       9       high_aug    0.134     0.765    0.888
+       7       high_aug    0.135     0.765    0.898
+       7      real_only    0.139     0.765    0.892
+       8       high_aug    0.136     0.765    0.898
+       1      real_only    0.138     0.765    0.892
+       6      real_only    0.138     0.765    0.892
+      10      real_only    0.140     0.765    0.892
+       9      real_only    0.139     0.765    0.892
+      11      real_only    0.138     0.765    0.892
+       4      real_only    0.140     0.765    0.892
+       3      real_only    0.137     0.765    0.892
+      12      real_only    0.138     0.765    0.892
+       2       high_aug    0.134     0.765    0.899
+       2      real_only    0.139     0.765    0.892
+       5      real_only    0.138     0.765    0.892
+       9        low_aug    0.135     0.762    0.897
+       7        low_aug    0.318     0.762    0.907
+      11        low_aug    0.135     0.760    0.905
+      10   moderate_aug    0.137     0.757    0.880
+       2       full_aug    0.135     0.757    0.901
+       4       high_aug    0.135     0.755    0.891
+       1 synthetic_only    0.134     0.752    0.883
+       2        low_aug    0.136     0.752    0.906
+      12       high_aug    0.134     0.750    0.886
+      10       full_aug    0.135     0.750    0.876
+       8   moderate_aug    0.134     0.735    0.873
+       7   moderate_aug    0.290     0.723    0.883
+       2   moderate_aug    0.134     0.723    0.881
+       5       full_aug    0.134     0.718    0.871
+      11       high_aug    0.135     0.710    0.862
+       8 synthetic_only    0.134     0.625    0.770
+       6 synthetic_only    0.134     0.608    0.797
+      11 synthetic_only    0.135     0.557    0.716
+      12 synthetic_only    0.134     0.537    0.755
+       4 synthetic_only    0.134     0.535    0.666
+       7 synthetic_only    0.135     0.530    0.716
+       3 synthetic_only    0.134     0.497    0.720
+       2 synthetic_only    0.134     0.490    0.683
+      10 synthetic_only    0.135     0.485    0.730
+       9 synthetic_only    0.135     0.432    0.623
+       5 synthetic_only    0.135     0.422    0.609

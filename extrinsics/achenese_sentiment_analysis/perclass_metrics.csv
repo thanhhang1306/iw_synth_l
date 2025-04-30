@@ -1,0 +1,421 @@
+variant,experiment,class,precision,recall,f1,support
+1,real_only,negative,0.75,0.79,0.77,153
+1,real_only,neutral,0.65,0.72,0.68,96
+1,real_only,positive,0.88,0.77,0.82,151
+1,real_only,macro avg,0.76,0.76,0.76,400
+1,real_only,weighted avg,0.77,0.77,0.77,400
+1,real_only,accuracy,0.765,0.765,0.765,153
+1,low_aug,negative,0.75,0.82,0.78,153
+1,low_aug,neutral,0.67,0.72,0.69,96
+1,low_aug,positive,0.91,0.79,0.84,151
+1,low_aug,macro avg,0.78,0.77,0.77,400
+1,low_aug,weighted avg,0.79,0.78,0.78,400
+1,low_aug,accuracy,0.7825,0.7825,0.7825,153
+1,moderate_aug,negative,0.75,0.84,0.8,153
+1,moderate_aug,neutral,0.79,0.68,0.73,96
+1,moderate_aug,positive,0.85,0.83,0.84,151
+1,moderate_aug,macro avg,0.8,0.78,0.79,400
+1,moderate_aug,weighted avg,0.8,0.8,0.8,400
+1,moderate_aug,accuracy,0.7975,0.7975,0.7975,153
+1,synthetic_only,negative,0.71,0.76,0.74,153
+1,synthetic_only,neutral,0.72,0.68,0.7,96
+1,synthetic_only,positive,0.82,0.79,0.8,151
+1,synthetic_only,macro avg,0.75,0.74,0.75,400
+1,synthetic_only,weighted avg,0.75,0.75,0.75,400
+1,synthetic_only,accuracy,0.7525,0.7525,0.7525,153
+2,real_only,negative,0.75,0.79,0.77,153
+2,real_only,neutral,0.65,0.72,0.68,96
+2,real_only,positive,0.88,0.77,0.82,151
+2,real_only,macro avg,0.76,0.76,0.76,400
+2,real_only,weighted avg,0.77,0.77,0.77,400
+2,real_only,accuracy,0.765,0.765,0.765,153
+2,low_aug,negative,0.69,0.81,0.74,153
+2,low_aug,neutral,0.71,0.65,0.68,96
+2,low_aug,positive,0.87,0.76,0.81,151
+2,low_aug,macro avg,0.76,0.74,0.74,400
+2,low_aug,weighted avg,0.76,0.75,0.75,400
+2,low_aug,accuracy,0.7525,0.7525,0.7525,153
+2,moderate_aug,negative,0.73,0.72,0.72,153
+2,moderate_aug,neutral,0.55,0.68,0.61,96
+2,moderate_aug,positive,0.87,0.75,0.81,151
+2,moderate_aug,macro avg,0.72,0.72,0.71,400
+2,moderate_aug,weighted avg,0.74,0.72,0.73,400
+2,moderate_aug,accuracy,0.7225,0.7225,0.7225,153
+2,high_aug,negative,0.73,0.76,0.75,153
+2,high_aug,neutral,0.74,0.68,0.71,96
+2,high_aug,positive,0.82,0.82,0.82,151
+2,high_aug,macro avg,0.76,0.75,0.76,400
+2,high_aug,weighted avg,0.77,0.77,0.76,400
+2,high_aug,accuracy,0.765,0.765,0.765,153
+2,full_aug,negative,0.69,0.82,0.75,153
+2,full_aug,neutral,0.7,0.71,0.7,96
+2,full_aug,positive,0.9,0.73,0.81,151
+2,full_aug,macro avg,0.76,0.75,0.75,400
+2,full_aug,weighted avg,0.77,0.76,0.76,400
+2,full_aug,accuracy,0.7575,0.7575,0.7575,153
+2,synthetic_only,negative,0.59,0.31,0.41,153
+2,synthetic_only,neutral,0.4,0.5,0.45,96
+2,synthetic_only,positive,0.5,0.66,0.57,151
+2,synthetic_only,macro avg,0.5,0.49,0.48,400
+2,synthetic_only,weighted avg,0.51,0.49,0.48,400
+2,synthetic_only,accuracy,0.49,0.49,0.49,153
+3,real_only,negative,0.75,0.79,0.77,153
+3,real_only,neutral,0.65,0.72,0.68,96
+3,real_only,positive,0.88,0.77,0.82,151
+3,real_only,macro avg,0.76,0.76,0.76,400
+3,real_only,weighted avg,0.77,0.77,0.77,400
+3,real_only,accuracy,0.765,0.765,0.765,153
+3,low_aug,negative,0.72,0.86,0.78,153
+3,low_aug,neutral,0.79,0.59,0.68,96
+3,low_aug,positive,0.86,0.83,0.85,151
+3,low_aug,macro avg,0.79,0.76,0.77,400
+3,low_aug,weighted avg,0.79,0.79,0.78,400
+3,low_aug,accuracy,0.785,0.785,0.785,153
+3,moderate_aug,negative,0.76,0.75,0.75,153
+3,moderate_aug,neutral,0.68,0.75,0.71,96
+3,moderate_aug,positive,0.86,0.81,0.83,151
+3,moderate_aug,macro avg,0.76,0.77,0.77,400
+3,moderate_aug,weighted avg,0.78,0.77,0.77,400
+3,moderate_aug,accuracy,0.7725,0.7725,0.7725,153
+3,high_aug,negative,0.73,0.75,0.74,153
+3,high_aug,neutral,0.66,0.74,0.7,96
+3,high_aug,positive,0.89,0.81,0.85,151
+3,high_aug,macro avg,0.76,0.76,0.76,400
+3,high_aug,weighted avg,0.77,0.77,0.77,400
+3,high_aug,accuracy,0.7675,0.7675,0.7675,153
+3,full_aug,negative,0.81,0.71,0.76,153
+3,full_aug,neutral,0.61,0.85,0.71,96
+3,full_aug,positive,0.9,0.79,0.84,151
+3,full_aug,macro avg,0.77,0.78,0.77,400
+3,full_aug,weighted avg,0.8,0.77,0.78,400
+3,full_aug,accuracy,0.7725,0.7725,0.7725,153
+3,synthetic_only,negative,0.65,0.52,0.58,153
+3,synthetic_only,neutral,0.31,0.59,0.4,96
+3,synthetic_only,positive,0.68,0.42,0.52,151
+3,synthetic_only,macro avg,0.55,0.51,0.5,400
+3,synthetic_only,weighted avg,0.58,0.5,0.51,400
+3,synthetic_only,accuracy,0.4975,0.4975,0.4975,153
+4,real_only,negative,0.75,0.79,0.77,153
+4,real_only,neutral,0.65,0.72,0.68,96
+4,real_only,positive,0.88,0.77,0.82,151
+4,real_only,macro avg,0.76,0.76,0.76,400
+4,real_only,weighted avg,0.77,0.77,0.77,400
+4,real_only,accuracy,0.765,0.765,0.765,153
+4,low_aug,negative,0.72,0.82,0.77,153
+4,low_aug,neutral,0.73,0.64,0.68,96
+4,low_aug,positive,0.85,0.81,0.83,151
+4,low_aug,macro avg,0.77,0.76,0.76,400
+4,low_aug,weighted avg,0.78,0.77,0.77,400
+4,low_aug,accuracy,0.7725,0.7725,0.7725,153
+4,moderate_aug,negative,0.76,0.76,0.76,153
+4,moderate_aug,neutral,0.71,0.75,0.73,96
+4,moderate_aug,positive,0.86,0.83,0.84,151
+4,moderate_aug,macro avg,0.78,0.78,0.78,400
+4,moderate_aug,weighted avg,0.78,0.78,0.78,400
+4,moderate_aug,accuracy,0.7825,0.7825,0.7825,153
+4,high_aug,negative,0.72,0.75,0.73,153
+4,high_aug,neutral,0.67,0.69,0.68,96
+4,high_aug,positive,0.85,0.81,0.83,151
+4,high_aug,macro avg,0.75,0.75,0.75,400
+4,high_aug,weighted avg,0.76,0.76,0.76,400
+4,high_aug,accuracy,0.755,0.755,0.755,153
+4,full_aug,negative,0.74,0.81,0.78,153
+4,full_aug,neutral,0.73,0.72,0.72,96
+4,full_aug,positive,0.91,0.83,0.87,151
+4,full_aug,macro avg,0.79,0.79,0.79,400
+4,full_aug,weighted avg,0.8,0.8,0.8,400
+4,full_aug,accuracy,0.795,0.795,0.795,153
+4,synthetic_only,negative,0.5,0.65,0.56,153
+4,synthetic_only,neutral,0.42,0.31,0.36,96
+4,synthetic_only,positive,0.66,0.56,0.6,151
+4,synthetic_only,macro avg,0.53,0.51,0.51,400
+4,synthetic_only,weighted avg,0.54,0.54,0.53,400
+4,synthetic_only,accuracy,0.535,0.535,0.535,153
+5,real_only,negative,0.75,0.79,0.77,153
+5,real_only,neutral,0.65,0.72,0.68,96
+5,real_only,positive,0.88,0.77,0.82,151
+5,real_only,macro avg,0.76,0.76,0.76,400
+5,real_only,weighted avg,0.77,0.77,0.77,400
+5,real_only,accuracy,0.765,0.765,0.765,153
+5,low_aug,negative,0.71,0.83,0.76,153
+5,low_aug,neutral,0.72,0.66,0.68,96
+5,low_aug,positive,0.9,0.79,0.84,151
+5,low_aug,macro avg,0.77,0.76,0.76,400
+5,low_aug,weighted avg,0.78,0.77,0.77,400
+5,low_aug,accuracy,0.7725,0.7725,0.7725,153
+5,moderate_aug,negative,0.75,0.75,0.75,153
+5,moderate_aug,neutral,0.7,0.72,0.71,96
+5,moderate_aug,positive,0.84,0.83,0.83,151
+5,moderate_aug,macro avg,0.76,0.76,0.76,400
+5,moderate_aug,weighted avg,0.77,0.77,0.77,400
+5,moderate_aug,accuracy,0.77,0.77,0.77,153
+5,high_aug,negative,0.74,0.78,0.76,153
+5,high_aug,neutral,0.69,0.76,0.72,96
+5,high_aug,positive,0.87,0.76,0.81,151
+5,high_aug,macro avg,0.77,0.77,0.77,400
+5,high_aug,weighted avg,0.78,0.77,0.77,400
+5,high_aug,accuracy,0.77,0.77,0.77,153
+5,full_aug,negative,0.69,0.71,0.7,153
+5,full_aug,neutral,0.62,0.61,0.62,96
+5,full_aug,positive,0.82,0.79,0.8,151
+5,full_aug,macro avg,0.71,0.71,0.71,400
+5,full_aug,weighted avg,0.72,0.72,0.72,400
+5,full_aug,accuracy,0.7175,0.7175,0.7175,153
+5,synthetic_only,negative,0.5,0.4,0.44,153
+5,synthetic_only,neutral,0.35,0.72,0.47,96
+5,synthetic_only,positive,0.48,0.26,0.34,151
+5,synthetic_only,macro avg,0.44,0.46,0.42,400
+5,synthetic_only,weighted avg,0.46,0.42,0.41,400
+5,synthetic_only,accuracy,0.4225,0.4225,0.4225,153
+6,real_only,negative,0.75,0.79,0.77,153
+6,real_only,neutral,0.65,0.72,0.68,96
+6,real_only,positive,0.88,0.77,0.82,151
+6,real_only,macro avg,0.76,0.76,0.76,400
+6,real_only,weighted avg,0.77,0.77,0.77,400
+6,real_only,accuracy,0.765,0.765,0.765,153
+6,low_aug,negative,0.76,0.77,0.77,153
+6,low_aug,neutral,0.72,0.74,0.73,96
+6,low_aug,positive,0.84,0.81,0.83,151
+6,low_aug,macro avg,0.77,0.78,0.77,400
+6,low_aug,weighted avg,0.78,0.78,0.78,400
+6,low_aug,accuracy,0.78,0.78,0.78,153
+6,moderate_aug,negative,0.73,0.78,0.75,153
+6,moderate_aug,neutral,0.69,0.73,0.71,96
+6,moderate_aug,positive,0.9,0.8,0.85,151
+6,moderate_aug,macro avg,0.77,0.77,0.77,400
+6,moderate_aug,weighted avg,0.78,0.78,0.78,400
+6,moderate_aug,accuracy,0.775,0.775,0.775,153
+6,high_aug,negative,0.72,0.8,0.76,153
+6,high_aug,neutral,0.68,0.68,0.68,96
+6,high_aug,positive,0.91,0.8,0.85,151
+6,high_aug,macro avg,0.77,0.76,0.76,400
+6,high_aug,weighted avg,0.78,0.77,0.77,400
+6,high_aug,accuracy,0.7725,0.7725,0.7725,153
+6,full_aug,negative,0.75,0.77,0.76,153
+6,full_aug,neutral,0.78,0.67,0.72,96
+6,full_aug,positive,0.82,0.87,0.85,151
+6,full_aug,macro avg,0.78,0.77,0.78,400
+6,full_aug,weighted avg,0.78,0.79,0.78,400
+6,full_aug,accuracy,0.785,0.785,0.785,153
+6,synthetic_only,negative,0.73,0.47,0.57,153
+6,synthetic_only,neutral,0.43,0.79,0.55,96
+6,synthetic_only,positive,0.77,0.63,0.69,151
+6,synthetic_only,macro avg,0.64,0.63,0.61,400
+6,synthetic_only,weighted avg,0.67,0.61,0.61,400
+6,synthetic_only,accuracy,0.6075,0.6075,0.6075,153
+7,real_only,negative,0.75,0.79,0.77,153
+7,real_only,neutral,0.65,0.72,0.68,96
+7,real_only,positive,0.88,0.77,0.82,151
+7,real_only,macro avg,0.76,0.76,0.76,400
+7,real_only,weighted avg,0.77,0.77,0.77,400
+7,real_only,accuracy,0.765,0.765,0.765,153
+7,low_aug,negative,0.71,0.83,0.76,153
+7,low_aug,neutral,0.7,0.67,0.68,96
+7,low_aug,positive,0.89,0.75,0.82,151
+7,low_aug,macro avg,0.76,0.75,0.75,400
+7,low_aug,weighted avg,0.77,0.76,0.76,400
+7,low_aug,accuracy,0.7625,0.7625,0.7625,153
+7,moderate_aug,negative,0.65,0.81,0.72,153
+7,moderate_aug,neutral,0.71,0.71,0.71,96
+7,moderate_aug,positive,0.86,0.64,0.73,151
+7,moderate_aug,macro avg,0.74,0.72,0.72,400
+7,moderate_aug,weighted avg,0.74,0.72,0.72,400
+7,moderate_aug,accuracy,0.7225,0.7225,0.7225,153
+7,high_aug,negative,0.75,0.73,0.74,153
+7,high_aug,neutral,0.7,0.74,0.72,96
+7,high_aug,positive,0.82,0.82,0.82,151
+7,high_aug,macro avg,0.76,0.76,0.76,400
+7,high_aug,weighted avg,0.77,0.77,0.77,400
+7,high_aug,accuracy,0.765,0.765,0.765,153
+7,full_aug,negative,0.82,0.71,0.76,153
+7,full_aug,neutral,0.7,0.83,0.76,96
+7,full_aug,positive,0.81,0.82,0.81,151
+7,full_aug,macro avg,0.78,0.79,0.78,400
+7,full_aug,weighted avg,0.79,0.78,0.78,400
+7,full_aug,accuracy,0.78,0.78,0.78,153
+7,synthetic_only,negative,0.71,0.24,0.35,153
+7,synthetic_only,neutral,0.44,0.74,0.55,96
+7,synthetic_only,positive,0.56,0.7,0.62,151
+7,synthetic_only,macro avg,0.57,0.56,0.51,400
+7,synthetic_only,weighted avg,0.59,0.53,0.5,400
+7,synthetic_only,accuracy,0.53,0.53,0.53,153
+8,real_only,negative,0.75,0.79,0.77,153
+8,real_only,neutral,0.65,0.72,0.68,96
+8,real_only,positive,0.88,0.77,0.82,151
+8,real_only,macro avg,0.76,0.76,0.76,400
+8,real_only,weighted avg,0.77,0.77,0.77,400
+8,real_only,accuracy,0.765,0.765,0.765,153
+8,low_aug,negative,0.73,0.82,0.78,153
+8,low_aug,neutral,0.7,0.72,0.71,96
+8,low_aug,positive,0.91,0.78,0.84,151
+8,low_aug,macro avg,0.78,0.77,0.78,400
+8,low_aug,weighted avg,0.79,0.78,0.78,400
+8,low_aug,accuracy,0.7825,0.7825,0.7825,153
+8,moderate_aug,negative,0.67,0.81,0.74,153
+8,moderate_aug,neutral,0.67,0.55,0.61,96
+8,moderate_aug,positive,0.85,0.77,0.81,151
+8,moderate_aug,macro avg,0.73,0.71,0.72,400
+8,moderate_aug,weighted avg,0.74,0.73,0.73,400
+8,moderate_aug,accuracy,0.735,0.735,0.735,153
+8,high_aug,negative,0.78,0.68,0.73,153
+8,high_aug,neutral,0.73,0.68,0.7,96
+8,high_aug,positive,0.77,0.91,0.83,151
+8,high_aug,macro avg,0.76,0.75,0.75,400
+8,high_aug,weighted avg,0.76,0.77,0.76,400
+8,high_aug,accuracy,0.765,0.765,0.765,153
+8,full_aug,negative,0.75,0.77,0.76,153
+8,full_aug,neutral,0.71,0.65,0.68,96
+8,full_aug,positive,0.84,0.87,0.85,151
+8,full_aug,macro avg,0.77,0.76,0.76,400
+8,full_aug,weighted avg,0.78,0.78,0.78,400
+8,full_aug,accuracy,0.7775,0.7775,0.7775,153
+8,synthetic_only,negative,0.63,0.7,0.66,153
+8,synthetic_only,neutral,0.46,0.49,0.47,96
+8,synthetic_only,positive,0.76,0.64,0.69,151
+8,synthetic_only,macro avg,0.61,0.61,0.61,400
+8,synthetic_only,weighted avg,0.64,0.62,0.63,400
+8,synthetic_only,accuracy,0.625,0.625,0.625,153
+9,real_only,negative,0.75,0.79,0.77,153
+9,real_only,neutral,0.65,0.72,0.68,96
+9,real_only,positive,0.88,0.77,0.82,151
+9,real_only,macro avg,0.76,0.76,0.76,400
+9,real_only,weighted avg,0.77,0.77,0.77,400
+9,real_only,accuracy,0.765,0.765,0.765,153
+9,low_aug,negative,0.72,0.79,0.76,153
+9,low_aug,neutral,0.7,0.67,0.68,96
+9,low_aug,positive,0.85,0.79,0.82,151
+9,low_aug,macro avg,0.76,0.75,0.75,400
+9,low_aug,weighted avg,0.76,0.76,0.76,400
+9,low_aug,accuracy,0.7625,0.7625,0.7625,153
+9,moderate_aug,negative,0.73,0.84,0.78,153
+9,moderate_aug,neutral,0.74,0.72,0.73,96
+9,moderate_aug,positive,0.89,0.77,0.83,151
+9,moderate_aug,macro avg,0.79,0.78,0.78,400
+9,moderate_aug,weighted avg,0.79,0.79,0.79,400
+9,moderate_aug,accuracy,0.785,0.785,0.785,153
+9,high_aug,negative,0.68,0.85,0.76,153
+9,high_aug,neutral,0.73,0.6,0.66,96
+9,high_aug,positive,0.9,0.78,0.84,151
+9,high_aug,macro avg,0.77,0.75,0.75,400
+9,high_aug,weighted avg,0.78,0.77,0.76,400
+9,high_aug,accuracy,0.765,0.765,0.765,153
+9,full_aug,negative,0.74,0.8,0.77,153
+9,full_aug,neutral,0.72,0.71,0.71,96
+9,full_aug,positive,0.88,0.82,0.85,151
+9,full_aug,macro avg,0.78,0.78,0.78,400
+9,full_aug,weighted avg,0.79,0.79,0.79,400
+9,full_aug,accuracy,0.785,0.785,0.785,153
+9,synthetic_only,negative,0.48,0.52,0.5,153
+9,synthetic_only,neutral,0.33,0.47,0.38,96
+9,synthetic_only,positive,0.51,0.32,0.4,151
+9,synthetic_only,macro avg,0.44,0.44,0.43,400
+9,synthetic_only,weighted avg,0.45,0.43,0.43,400
+9,synthetic_only,accuracy,0.4325,0.4325,0.4325,153
+10,real_only,negative,0.75,0.79,0.77,153
+10,real_only,neutral,0.65,0.72,0.68,96
+10,real_only,positive,0.88,0.77,0.82,151
+10,real_only,macro avg,0.76,0.76,0.76,400
+10,real_only,weighted avg,0.77,0.77,0.77,400
+10,real_only,accuracy,0.765,0.765,0.765,153
+10,low_aug,negative,0.79,0.82,0.8,153
+10,low_aug,neutral,0.73,0.77,0.75,96
+10,low_aug,positive,0.89,0.83,0.86,151
+10,low_aug,macro avg,0.8,0.81,0.8,400
+10,low_aug,weighted avg,0.81,0.81,0.81,400
+10,low_aug,accuracy,0.81,0.81,0.81,153
+10,moderate_aug,negative,0.72,0.8,0.76,153
+10,moderate_aug,neutral,0.74,0.67,0.7,96
+10,moderate_aug,positive,0.82,0.77,0.8,151
+10,moderate_aug,macro avg,0.76,0.75,0.75,400
+10,moderate_aug,weighted avg,0.76,0.76,0.76,400
+10,moderate_aug,accuracy,0.7575,0.7575,0.7575,153
+10,high_aug,negative,0.75,0.76,0.75,153
+10,high_aug,neutral,0.68,0.71,0.69,96
+10,high_aug,positive,0.86,0.81,0.84,151
+10,high_aug,macro avg,0.76,0.76,0.76,400
+10,high_aug,weighted avg,0.77,0.77,0.77,400
+10,high_aug,accuracy,0.77,0.77,0.77,153
+10,full_aug,negative,0.72,0.77,0.74,153
+10,full_aug,neutral,0.69,0.66,0.67,96
+10,full_aug,positive,0.83,0.79,0.81,151
+10,full_aug,macro avg,0.74,0.74,0.74,400
+10,full_aug,weighted avg,0.75,0.75,0.75,400
+10,full_aug,accuracy,0.75,0.75,0.75,153
+10,synthetic_only,negative,0.62,0.65,0.63,153
+10,synthetic_only,neutral,0.36,0.77,0.49,96
+10,synthetic_only,positive,0.62,0.14,0.23,151
+10,synthetic_only,macro avg,0.53,0.52,0.45,400
+10,synthetic_only,weighted avg,0.56,0.48,0.45,400
+10,synthetic_only,accuracy,0.485,0.485,0.485,153
+11,real_only,negative,0.75,0.79,0.77,153
+11,real_only,neutral,0.65,0.72,0.68,96
+11,real_only,positive,0.88,0.77,0.82,151
+11,real_only,macro avg,0.76,0.76,0.76,400
+11,real_only,weighted avg,0.77,0.77,0.77,400
+11,real_only,accuracy,0.765,0.765,0.765,153
+11,low_aug,negative,0.69,0.84,0.76,153
+11,low_aug,neutral,0.72,0.62,0.67,96
+11,low_aug,positive,0.89,0.76,0.82,151
+11,low_aug,macro avg,0.77,0.74,0.75,400
+11,low_aug,weighted avg,0.77,0.76,0.76,400
+11,low_aug,accuracy,0.76,0.76,0.76,153
+11,moderate_aug,negative,0.74,0.75,0.74,153
+11,moderate_aug,neutral,0.69,0.71,0.7,96
+11,moderate_aug,positive,0.86,0.83,0.85,151
+11,moderate_aug,macro avg,0.76,0.76,0.76,400
+11,moderate_aug,weighted avg,0.77,0.77,0.77,400
+11,moderate_aug,accuracy,0.77,0.77,0.77,153
+11,high_aug,negative,0.64,0.81,0.71,153
+11,high_aug,neutral,0.65,0.49,0.56,96
+11,high_aug,positive,0.84,0.75,0.79,151
+11,high_aug,macro avg,0.71,0.68,0.69,400
+11,high_aug,weighted avg,0.72,0.71,0.71,400
+11,high_aug,accuracy,0.71,0.71,0.71,153
+11,full_aug,negative,0.76,0.78,0.77,153
+11,full_aug,neutral,0.71,0.69,0.7,96
+11,full_aug,positive,0.83,0.82,0.83,151
+11,full_aug,macro avg,0.77,0.76,0.77,400
+11,full_aug,weighted avg,0.77,0.78,0.77,400
+11,full_aug,accuracy,0.775,0.775,0.775,153
+11,synthetic_only,negative,0.55,0.58,0.56,153
+11,synthetic_only,neutral,0.5,0.46,0.48,96
+11,synthetic_only,positive,0.59,0.6,0.6,151
+11,synthetic_only,macro avg,0.55,0.55,0.55,400
+11,synthetic_only,weighted avg,0.56,0.56,0.56,400
+11,synthetic_only,accuracy,0.5575,0.5575,0.5575,153
+12,real_only,negative,0.75,0.79,0.77,153
+12,real_only,neutral,0.65,0.72,0.68,96
+12,real_only,positive,0.88,0.77,0.82,151
+12,real_only,macro avg,0.76,0.76,0.76,400
+12,real_only,weighted avg,0.77,0.77,0.77,400
+12,real_only,accuracy,0.765,0.765,0.765,153
+12,low_aug,negative,0.7,0.83,0.76,153
+12,low_aug,neutral,0.71,0.75,0.73,96
+12,low_aug,positive,0.93,0.72,0.81,151
+12,low_aug,macro avg,0.78,0.77,0.77,400
+12,low_aug,weighted avg,0.79,0.77,0.77,400
+12,low_aug,accuracy,0.77,0.77,0.77,153
+12,moderate_aug,negative,0.71,0.86,0.78,153
+12,moderate_aug,neutral,0.76,0.71,0.74,96
+12,moderate_aug,positive,0.89,0.75,0.81,151
+12,moderate_aug,macro avg,0.79,0.77,0.78,400
+12,moderate_aug,weighted avg,0.79,0.78,0.78,400
+12,moderate_aug,accuracy,0.78,0.78,0.78,153
+12,high_aug,negative,0.69,0.79,0.74,153
+12,high_aug,neutral,0.67,0.65,0.66,96
+12,high_aug,positive,0.89,0.77,0.83,151
+12,high_aug,macro avg,0.75,0.74,0.74,400
+12,high_aug,weighted avg,0.76,0.75,0.75,400
+12,high_aug,accuracy,0.75,0.75,0.75,153
+12,full_aug,negative,0.77,0.8,0.79,153
+12,full_aug,neutral,0.76,0.73,0.74,96
+12,full_aug,positive,0.87,0.85,0.86,151
+12,full_aug,macro avg,0.8,0.8,0.8,400
+12,full_aug,weighted avg,0.81,0.81,0.8,400
+12,full_aug,accuracy,0.805,0.805,0.805,153
+12,synthetic_only,negative,0.61,0.66,0.63,153
+12,synthetic_only,neutral,0.39,0.67,0.49,96
+12,synthetic_only,positive,0.72,0.33,0.45,151
+12,synthetic_only,macro avg,0.57,0.55,0.53,400
+12,synthetic_only,weighted avg,0.6,0.54,0.53,400
+12,synthetic_only,accuracy,0.5375,0.5375,0.5375,153
