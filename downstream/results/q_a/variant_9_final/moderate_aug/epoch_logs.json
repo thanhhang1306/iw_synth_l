@@ -1,0 +1,190 @@
+[
+  {
+    "eval_loss": 1.3855174779891968,
+    "eval_accuracy": 0.24,
+    "eval_weighted_precision": 0.22761904761904758,
+    "eval_weighted_recall": 0.24,
+    "eval_weighted_f1": 0.22926315789473684,
+    "eval_macro_precision": 0.2267399267399267,
+    "eval_macro_recall": 0.2451923076923077,
+    "eval_macro_f1": 0.23067476383265856,
+    "eval_top2_accuracy": 0.52,
+    "eval_top3_accuracy": 0.78,
+    "eval_mrr": 0.5216666666666667,
+    "eval_map": 0.5216666666666667,
+    "eval_roc_auc": 0.5571622826557037,
+    "eval_cohen_kappa": -0.014957264957265126,
+    "eval_confusion_matrix": [
+      [
+        4,
+        1,
+        2,
+        3
+      ],
+      [
+        5,
+        3,
+        2,
+        3
+      ],
+      [
+        2,
+        4,
+        1,
+        5
+      ],
+      [
+        4,
+        5,
+        2,
+        4
+      ]
+    ],
+    "eval_runtime": 0.1718,
+    "eval_samples_per_second": 290.973,
+    "eval_steps_per_second": 11.639,
+    "epoch": 1.0,
+    "step": 13
+  },
+  {
+    "eval_loss": 1.3859270811080933,
+    "eval_accuracy": 0.3,
+    "eval_weighted_precision": 0.2949019607843137,
+    "eval_weighted_recall": 0.3,
+    "eval_weighted_f1": 0.29547932330827065,
+    "eval_macro_precision": 0.2957516339869281,
+    "eval_macro_recall": 0.29615384615384616,
+    "eval_macro_f1": 0.2939771303258145,
+    "eval_top2_accuracy": 0.54,
+    "eval_top3_accuracy": 0.76,
+    "eval_mrr": 0.5533333333333333,
+    "eval_map": 0.5533333333333333,
+    "eval_roc_auc": 0.5203552377565535,
+    "eval_cohen_kappa": 0.05507559395248374,
+    "eval_confusion_matrix": [
+      [
+        3,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        5,
+        3,
+        4
+      ],
+      [
+        1,
+        5,
+        2,
+        4
+      ],
+      [
+        4,
+        4,
+        2,
+        5
+      ]
+    ],
+    "eval_runtime": 0.1726,
+    "eval_samples_per_second": 289.632,
+    "eval_steps_per_second": 11.585,
+    "epoch": 2.0,
+    "step": 26
+  },
+  {
+    "eval_loss": 1.386048436164856,
+    "eval_accuracy": 0.3,
+    "eval_weighted_precision": 0.28899547511312224,
+    "eval_weighted_recall": 0.3,
+    "eval_weighted_f1": 0.2919220779220779,
+    "eval_macro_precision": 0.29592760180995475,
+    "eval_macro_recall": 0.30705128205128207,
+    "eval_macro_f1": 0.29902597402597403,
+    "eval_top2_accuracy": 0.54,
+    "eval_top3_accuracy": 0.76,
+    "eval_mrr": 0.5533333333333333,
+    "eval_map": 0.5533333333333333,
+    "eval_roc_auc": 0.49858431486720955,
+    "eval_cohen_kappa": 0.06115879828326187,
+    "eval_confusion_matrix": [
+      [
+        4,
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        6,
+        3,
+        3
+      ],
+      [
+        1,
+        5,
+        2,
+        4
+      ],
+      [
+        4,
+        5,
+        3,
+        3
+      ]
+    ],
+    "eval_runtime": 0.1713,
+    "eval_samples_per_second": 291.817,
+    "eval_steps_per_second": 11.673,
+    "epoch": 3.0,
+    "step": 39
+  },
+  {
+    "eval_loss": 1.3855831623077393,
+    "eval_accuracy": 0.28,
+    "eval_weighted_precision": 0.2740896358543417,
+    "eval_weighted_recall": 0.28,
+    "eval_weighted_f1": 0.27444991789819373,
+    "eval_macro_precision": 0.28265639589169,
+    "eval_macro_recall": 0.28782051282051285,
+    "eval_macro_f1": 0.28267651888341544,
+    "eval_top2_accuracy": 0.56,
+    "eval_top3_accuracy": 0.78,
+    "eval_mrr": 0.5483333333333333,
+    "eval_map": 0.5483333333333333,
+    "eval_roc_auc": 0.5257125434428066,
+    "eval_cohen_kappa": 0.03277807630306284,
+    "eval_confusion_matrix": [
+      [
+        4,
+        2,
+        2,
+        2
+      ],
+      [
+        1,
+        5,
+        2,
+        5
+      ],
+      [
+        1,
+        5,
+        2,
+        4
+      ],
+      [
+        4,
+        5,
+        3,
+        3
+      ]
+    ],
+    "eval_runtime": 0.1724,
+    "eval_samples_per_second": 290.035,
+    "eval_steps_per_second": 11.601,
+    "epoch": 4.0,
+    "step": 52
+  }
+]
