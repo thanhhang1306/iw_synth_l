@@ -76,7 +76,7 @@ def translate_and_verify(input_path, output_path):
     print(f'final data at {output_path}')
 
 if __name__=='__main__':
-    base = '/scratch/gpfs/de7281/variant4_data'
-    inp = os.path.join(base, 'variant4_raw.csv')
-    out = os.path.join(base, 'variant4_final.csv')
-    translate_and_verify(inp, out)
+    OUT_DIR = '/scratch/gpfs/de7281/variant4_data'
+    INP_FILE = os.path.join(OUT_DIR, 'variant_4_raw.csv')
+    OUT_FILE = os.path.join(OUT_DIR, 'variant_4_final.csv')
+    translate_and_verify(INP_FILE, OUT_FILE)
