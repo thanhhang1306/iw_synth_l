@@ -8,7 +8,6 @@ from tqdm import tqdm
 # seed for reproducibility
 random.seed(100)
 
-print("loading acehnese real dataset...")
 train = load_dataset("indonlp/NusaX-senti", "ace", split="train")
 df = train.to_pandas()[["text", "label"]]
 
