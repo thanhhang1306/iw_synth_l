@@ -41,11 +41,11 @@ if __name__ == '__main__':
         'negative': 'the mood is intense and somber'
     }
     count_per_label = 500
-    base = '/scratch/gpfs/de7281/variant4_data'
-    os.makedirs(base, exist_ok=True)
-    outpath = os.path.join(base, 'variant4_raw.csv')
-    exists = os.path.isfile(outpath)
-    outfile = open(outpath, 'a', newline='', encoding='utf-8')
+    OUT_DIR = '/scratch/gpfs/de7281/variant4_data'
+    os.makedirs(OUT_DIR, exist_ok=True)
+    CSV_FILE = os.path.join(OUT_DIR, 'variant4_raw.csv')
+    exists = os.path.isfile(CSV_FILE)
+    outfile = open(CSV_FILE, 'a', newline='', encoding='utf-8')
     writer = csv.writer(outfile)
     if not exists:
         writer.writerow(['sentiment','ace_text'])

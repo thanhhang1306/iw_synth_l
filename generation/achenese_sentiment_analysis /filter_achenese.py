@@ -6,10 +6,10 @@ from transformers import AutoTokenizer, AutoModelForMaskedLM
 # pseudo-perplexity filtering for acehnese
 
 if __name__ == '__main__':
-    base = '/scripts/fine_tune'
-    inp = os.path.join(base, 'variant_7_final.csv')
-    out = os.path.join(base, 'variant_7_final_check.csv')
-    THRESH = 100.0
+    OUT_DIR = '/scripts/fine_tune'
+    INP_FILE = os.path.join(OUT_DIR, 'variant_7_final.csv')
+    OUT_FILE = os.path.join(OUT_DIR, 'variant_7_final_check.csv')
+    THRESH = 148.74 
     
     # load model
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -19,7 +19,7 @@ if __name__ == '__main__':
     model.eval()
 
     def pseudo_perplexity(txt):
-        tokens = tok(txt, return_tensors='pt').input_ids.to(device)
+        tokens = tok(txt, return_tensors='pt').INP_FILEut_ids.to(device)
         n = tokens.size(1)
         loss = 0.0
         with torch.no_grad():
@@ -32,7 +32,7 @@ if __name__ == '__main__':
         return float(torch.exp(loss/(n-2)))
 
     # process rows
-    with open(inp,newline='',encoding='utf-8') as fin, open(out,'w',newline='',encoding='utf-8') as fout:
+    with open(INP_FILE,newline='',encoding='utf-8') as fin, open(out,'w',newline='',encoding='utf-8') as fout:
         reader = csv.DictReader(fin)
         fnames = reader.fieldnames + ['acehnese_pppl']
         writer = csv.DictWriter(fout, fieldnames=fnames)
@@ -45,4 +45,4 @@ if __name__ == '__main__':
             if ppl <= THRESH:
                 row['acehnese_pppl'] = f"{ppl:.2f}"
                 writer.writerow(row)
-    print(f"filtered output to {out}")
+    print(f"filtered output to {OUT_FILE}")

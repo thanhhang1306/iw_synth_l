@@ -45,11 +45,11 @@ def generate_sentiment():
         top_k=1
     )
     # prepare output file
-    base_dir = "/scratch/gpfs/de7281/sentiment_analysis/variant2_data"
-    os.makedirs(base_dir, exist_ok=True)
-    csv_path = os.path.join(base_dir, "variant2_raw_for_lex.csv")
-    exists = os.path.isfile(csv_path)
-    csvfile = open(csv_path, 'a', newline='', encoding='utf-8')
+    OUT_DIR = "/scratch/gpfs/de7281/sentiment_analysis/variant2_data"
+    os.makedirs(OUT_DIR, exist_ok=True)
+    CSV_FILE = os.path.join(OUT_DIR, "variant2_raw_for_lex.csv")
+    exists = os.path.isfile(CSV_FILE)
+    csvfile = open(CSV_FILE, 'a', newline='', encoding='utf-8')
     writer = csv.writer(csvfile)
     if not exists:
         writer.writerow(['sentiment', 'en_text'])

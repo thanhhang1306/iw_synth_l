@@ -1,4 +1,3 @@
-# File: generate_variant11.py
 import os
 import random
 import torch
@@ -70,11 +69,11 @@ def contains_seed_words(text, seeds, min_count):
 
 # chain-of-thought generation + QA filtering
 
-def generate_and_filter(label, guide, batch_size, gen_tok, gen_mod, sent_pipe, lexicon, lm_tok, lm_mod):
-    sample = random.sample(lexicon, k=min(len(lexicon), MIN_LEX_WORDS * 3))
+def generate_and_filter(label, guide, BATCH, gen_tok, gen_mod, sent_pipe, lexicon, lm_tok, lm_mod):
+    sample = random.sample(lexicon, k=min(len(lexicon), MIN_LEX * 3))
     prompt = (
         f"you are a helpful assistant. think step by step to craft a {label} english sentence that is {guide}"
-        f" and includes at least {MIN_LEX_WORDS} of these words: {', '.join(sample)}. then provide only the final sentence."
+        f" and includes at least {MIN_LEX} of these words: {', '.join(sample)}. then provide only the final sentence."
     )
     inputs = gen_tok(prompt, return_tensors='pt', truncation=True, max_length=512).to(device)
     with torch.no_grad():
@@ -84,7 +83,7 @@ def generate_and_filter(label, guide, batch_size, gen_tok, gen_mod, sent_pipe, l
             do_sample=True,
             top_k=50,
             top_p=0.95,
-            num_return_sequences=batch_size,
+            num_return_sequences=BATCH,
             no_repeat_ngram_size=3,
             repetition_penalty=1.3,
             decoder_start_token_id=gen_tok.pad_token_id
@@ -105,14 +104,14 @@ def generate_and_filter(label, guide, batch_size, gen_tok, gen_mod, sent_pipe, l
         score = res['score']
         cond = [
             pred == label,
-            score >= SENT_SCORE_MIN,
+            score >= SENT_MIN,
             flesch[i] >= FLESCH_MIN,
-            d1[i] >= DIST1_MIN,
-            d2[i] >= DIST2_MIN,
+            d1[i] >= D1_MIN,
+            d2[i] >= D2_MIN,
             (1 - bdiv[i]) >= COHERENCE_MIN,
-            bertf[i] >= BERT_F1_MIN,
+            bertf[i] >= BERT_MIN,
             ppl[i] <= PPL_MAX,
-            contains_seed_words(s, lexicon, MIN_LEX_WORDS)
+            contains_seed_words(s, lexicon, MIN_LEX)
         ]
         if all(cond):
             survivors.append(s)
@@ -130,7 +129,7 @@ if __name__ == '__main__':
     sent_pipe = pipeline(
         'sentiment-analysis', model=sent_mod, tokenizer=sent_tok,
         device=0 if torch.cuda.is_available() else -1,
-        batch_size=32, truncation=True, max_length=128, top_k=1
+        BATCH=32, truncation=True, max_length=128, top_k=1
     )
 
     # cross-reuse
@@ -141,36 +140,38 @@ if __name__ == '__main__':
     lexicon = [e['src'] for e in lex_data]
 
     # parameters
-    NUM_EXAMPLES = 1000
-    BATCH_SIZE    = 16
-    MIN_LEX_WORDS = 2
-    SENT_SCORE_MIN= 0.8
-    FLESCH_MIN    = 50.0
-    DIST1_MIN     = 0.5
-    DIST2_MIN     = 0.3
+    NUM = 1000
+    BATCH = 16
+    MIN_LEX = 2
+    SENT_MIN = 0.8
+    FLESCH_MIN=51.48
+    D1_MIN=0.9
+    D2_MIN=1.0
+    BDIV_MIN=0.99
     COHERENCE_MIN = 0.7
-    BERT_F1_MIN   = 0.85
-    PPL_MAX       = 200.0
+    BERT_MIN=1.00
+    PPL_MAX=148.74
+    
 
-    out_dir = '/scratch/gpfs/de7281/sentiment_analysis/variant7_data'
-    os.makedirs(out_dir, exist_ok=True)
-    out_csv = os.path.join(out_dir, 'variant11_raw.csv')
-    exists  = os.path.isfile(out_csv)
-    fout    = open(out_csv, 'a', newline='', encoding='utf-8')
+    OUT_DIR = '/scratch/gpfs/de7281/sentiment_analysis/variant7_data'
+    os.makedirs(OUT_DIR, exist_ok=True)
+    CSV_FILE = os.path.join(OUT_DIR, 'variant11_raw.csv')
+    exists  = os.path.isfile(CSV_FILE)
+    fout    = open(CSV_FILE, 'a', newline='', encoding='utf-8')
     writer  = csv.writer(fout)
     if not exists:
         writer.writerow(['sentiment','en_text'])
 
     for label, guide in {'positive':'uplifting and cheerful', 'neutral':'calm and balanced', 'negative':'intense and somber'}.items():
-        pbar, count = tqdm(total=NUM_EXAMPLES, desc=label), 0
-        while count < NUM_EXAMPLES:
-            keep = generate_and_filter(label, guide, BATCH_SIZE, gen_tok, gen_mod, sent_pipe, lexicon, lm_tok, lm_mod)
+        pbar, count = tqdm(total=NUM, desc=label), 0
+        while count < NUM:
+            keep = generate_and_filter(label, guide, BATCH, gen_tok, gen_mod, sent_pipe, lexicon, lm_tok, lm_mod)
             for s in keep:
                 writer.writerow([label, s])
                 fout.flush()
                 count += 1
                 pbar.update(1)
-                if count >= NUM_EXAMPLES:
+                if count >= NUM:
                     break
         pbar.close()
     fout.close()

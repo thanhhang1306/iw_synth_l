@@ -73,11 +73,11 @@ def contains_seed_words(text, seeds, min_count):
 if __name__ == '__main__':
     set_seed()
     # config
-    base = '/scratch/gpfs/de7281/sentiment_analysis/variant_5'
-    os.makedirs(base, exist_ok=True)
-    out_csv = os.path.join(base, 'variant7_raw.csv')
-    exists = os.path.isfile(out_csv)
-    fout = open(out_csv, 'a', newline='', encoding='utf-8')
+    OUT_DIR = '/scratch/gpfs/de7281/sentiment_analysis/variant_5'
+    os.makedirs(OUT_DIR, exist_ok=True)
+    CSV_FILE = os.path.join(OUT_DIR, 'variant7_raw.csv')
+    exists = os.path.isfile(CSV_FILE)
+    fout = open(CSV_FILE, 'a', newline='', encoding='utf-8')
     writer = csv.writer(fout)
     if not exists:
         writer.writerow(['sentiment','en_text'])
@@ -108,8 +108,12 @@ if __name__ == '__main__':
     BATCH = 16
     MIN_LEX = 2
     SENT_MIN = 0.8
-    FLESCH_MIN=50.0
-    D1_MIN=0.5; D2_MIN=0.3; BDIV_MIN=0.3; BERT_MIN=0.85; PPL_MAX=200.0
+    FLESCH_MIN=51.48
+    D1_MIN=0.9
+    D2_MIN=1.0
+    BDIV_MIN=0.99
+    BERT_MIN=1.00
+    PPL_MAX=148.74
 
     for label, guide in {'positive':'uplifting and cheerful','neutral':'calm and balanced','negative':'intense and somber'}.items():
         pbar, count = tqdm(total=NUM, desc=label), 0

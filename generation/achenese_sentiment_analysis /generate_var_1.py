@@ -55,7 +55,7 @@ final = df[['sentiment', 'en_text', 'ace_text']]
 def main():
     # write to csv
     final.to_csv("variant_1.csv", index=False)
-    print("data saved to variant_1.csv")
+    print("saved 500 examples to variant_1.csv")
 
 
 if __name__ == '__main__':

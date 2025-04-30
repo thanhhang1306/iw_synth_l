@@ -17,11 +17,11 @@ def translate(text):
     return asyncio.run(translate_async(text))
 
 if __name__ == '__main__':
-    base = "/scratch/gpfs/de7281/sentiment_analysis/variant3_data"
-    inp = os.path.join(base, "variant2_raw_for_lex.csv")
-    out = os.path.join(base, "variant3_final.csv")
-    with open(inp, newline='', encoding='utf-8') as inf, \
-         open(out, 'w', newline='', encoding='utf-8') as outf:
+    OUT_DIR = "/scratch/gpfs/de7281/sentiment_analysis/variant3_data"
+    INP_FILE = os.path.join(OUT_DIR, "variant_2_raw_for_mt.csv")
+    OUT_FILE = os.path.join(OUT_DIR, "variant_2_final.csv")
+    with open(INP_FILE, newline='', encoding='utf-8') as inf, \
+         open(OUT_FILE, 'w', newline='', encoding='utf-8') as outf:
         reader = csv.DictReader(inf)
         writer = csv.DictWriter(outf, fieldnames=['sentiment','en_text','ace_text'])
         writer.writeheader()

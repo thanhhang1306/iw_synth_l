@@ -59,11 +59,11 @@ if __name__ == '__main__':
     lexicon = [e['src'] for e in lex_data]
 
     # prepare output file
-    out_dir = '/scratch/gpfs/de7281/sentiment_analysis/variant9_data'
-    os.makedirs(out_dir, exist_ok=True)
-    out_csv = os.path.join(out_dir, 'variant9_raw.csv')
-    exists  = os.path.isfile(out_csv)
-    fout    = open(out_csv, 'a', newline='', encoding='utf-8')
+    OUT_DIR = '/scratch/gpfs/de7281/sentiment_analysis/variant9_data'
+    os.makedirs(OUT_DIR, exist_ok=True)
+    CSV_FILE = os.path.join(OUT_DIR, 'variant9_raw.csv')
+    exists  = os.path.isfile(CSV_FILE)
+    fout    = open(CSV_FILE, 'a', newline='', encoding='utf-8')
     writer  = csv.writer(fout)
     if not exists:
         writer.writerow(['sentiment','en_text'])
