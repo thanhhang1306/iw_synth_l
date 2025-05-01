@@ -5,7 +5,9 @@ A repository storing the codebase for SYNTH-L.
 I acknowledge the use of OpenAI’s ChatGPT (Basic version) for occasional assistance in refining the syntactical structure and phrasing of the code. All core algorithmic design, implementation, and conceptual development were performed independently by me; ChatGPT’s role was limited to code polishing.
 
 ## Notes
+
 All experiments were carried out on the Princeton Della high-performance computing cluster.  Due to the extensive size of the model repository (over 900 GB encompassing 130 distinct fine-tuned models) individual weight files and detailed configuration information are available upon request.  Please contact hang.pham@princeton.edu to obtain access.
+
 ---
 
 ## Repository Structure
