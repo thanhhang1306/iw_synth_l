@@ -1,0 +1,33 @@
+{
+    "eval_loss": 1.1741931438446045,
+    "eval_accuracy": 0.5375,
+    "eval_weighted_precision": 0.599367537343048,
+    "eval_weighted_recall": 0.5375,
+    "eval_weighted_f1": 0.5315020898641588,
+    "eval_macro_precision": 0.5736500679926557,
+    "eval_macro_recall": 0.5526410711451616,
+    "eval_macro_f1": 0.5260652502031812,
+    "eval_roc_auc": 0.7551779966810064,
+    "eval_cohen_kappa": 0.3169840229641048,
+    "eval_confusion_matrix": [
+        [
+            101,
+            37,
+            15
+        ],
+        [
+            28,
+            64,
+            4
+        ],
+        [
+            37,
+            64,
+            50
+        ]
+    ],
+    "eval_runtime": 0.1341,
+    "eval_samples_per_second": 2981.922,
+    "eval_steps_per_second": 29.819,
+    "epoch": 26.0
+}
